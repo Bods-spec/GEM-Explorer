@@ -15,7 +15,7 @@
   const translations = {
     en: {
       skip: 'Skip to content', navHome: 'Home', navMuseum: 'The Museum',
-      navCollection: 'Collection', navExperience: 'Experience', navVisit: 'Plan a Visit',
+      navCollection: 'Collection', navExperience: 'Experience', navVisit: 'Plan a Visit', aiGuide: '✦ AI Guide',
       headerExplore: 'Explore now', heroSerial: 'AN IMMERSIVE MUSEUM EXPERIENCE',
       heroExplore: 'Begin exploring', heroCollection: 'View the collection',
       scroll: 'SCROLL TO EXPLORE', heroSide: 'THE GRAND EGYPTIAN MUSEUM',
@@ -59,7 +59,7 @@
     },
     ar: {
       skip: 'انتقل للمحتوى', navHome: 'الرئيسية', navMuseum: 'عن المتحف',
-      navCollection: 'المعروضات', navExperience: 'التجربة', navVisit: 'خطط لزيارتك',
+      navCollection: 'المعروضات', navExperience: 'التجربة', navVisit: 'خطط لزيارتك', aiGuide: '✦ المرشد الذكي',
       headerExplore: 'استكشف الآن', heroSerial: 'تجربة استكشاف استثنائية',
       heroExplore: 'ابدأ الاستكشاف', heroCollection: 'شاهد المعروضات',
       scroll: 'مرر للاستكشاف', heroSide: 'المتحف المصري الكبير',

@@ -1,0 +1,21 @@
+GEM Explorer AI v0.3.0 — Supabase migration
+
+Modified:
+ backend/package.json (removed mysql2, added @supabase/supabase-js)
+ backend/.env.example (Supabase URL + secret key)
+ backend/config/db.js (Supabase client)
+ backend/routes/artifacts.js (PostgREST queries)
+ backend/routes/ai.js (updated default configurable model)
+ backend/server.js (sections and db-health routes)
+ database/schema.sql (PostgreSQL, RLS, Supabase Auth-backed profiles)
+ README.md and docs updates
+
+Added:
+ backend/routes/dbHealth.js
+ backend/routes/sections.js
+ docs/SUPABASE_MIGRATION.md
+ README-PHASE2-START-HERE.md updated for Supabase
+
+Unchanged: frontend/* (existing Homepage and AI Guide retained exactly)
+
+Open README-PHASE2-START-HERE.md first.

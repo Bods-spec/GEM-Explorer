@@ -20,7 +20,7 @@
 - [ ] Unit/manual UI tests, responsive/mobile accessibility
 
 ## Week 4
-- [ ] Node.js/Express server setup and MySQL connection
+- [ ] Node.js/Express server setup and Supabase connection
 - [ ] Auth and artifact APIs
 - [ ] Demo bookings and protected routes
 - [ ] Server-side validation, error handling, credential security

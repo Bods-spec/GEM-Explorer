@@ -1,88 +1,47 @@
-# GEM Explorer — Homepage v1
-**Web Design course | Team of 4 | Student 1 is lead developer**
+# GEM Explorer AI — Team-Ready Phase 2 (v0.3.1)
 
-A responsive, cinematic landing page inspired by the Grand Egyptian Museum in Giza. This version is the **front-end Homepage milestone**, not the finished website. No database, authentication, or booking backend has been implemented yet.
+**University Web Design project · 4 students · independent educational museum platform**
 
-## Run locally (Windows / VS Code)
-1. Unzip `GEM-Explorer-Homepage-v1.zip`.
-2. Open the `GEM-Explorer` folder in VS Code.
-3. Install the **Live Server** VS Code extension.
-4. Right-click `frontend/index.html` and choose **Open with Live Server**.
-5. Test on a desktop and in the browser's mobile Device Toolbar.
+The existing immersive GEM-inspired homepage and AI chat UI are included, as well as a Node.js/Express backend foundation and a **Supabase PostgreSQL** database schema. **AI responses, authentication, booking write APIs, and the admin dashboard are not yet complete.** GitHub Pages serves static frontend only; run the Node server for APIs.
 
-Alternative: double-click `frontend/index.html`. Basic features work without Live Server, but Live Server will be needed as the project expands.
+## Start here
+- **Team assignments**: [`docs/TEAM_TASKS.md`](docs/TEAM_TASKS.md)
+- **GitHub branches / collaboration**: [`docs/GITHUB_TEAM_WORKFLOW.md`](docs/GITHUB_TEAM_WORKFLOW.md)
+- **API and database contract**: [`docs/API_CONTRACT.md`](docs/API_CONTRACT.md)
+- **Supabase setup**: [`README-PHASE2-START-HERE.md`](README-PHASE2-START-HERE.md)
+- **Phase 2 roadmap**: [`docs/PHASE2_ROADMAP.md`](docs/PHASE2_ROADMAP.md)
+- **Image source/credit information**: [`IMAGE_CREDITS.md`](IMAGE_CREDITS.md)
 
-**Internet access is required** for images from Wikimedia Commons and web fonts. The CSS provides dark illustrated gradients if assets cannot load. See `IMAGE_CREDITS.md` for licenses.
+## Run locally
+Install Node.js (20+). In VS Code, open the **inner `GEM-Explorer` folder**, then:
 
-## What's included in v1
-- Full viewport hero with 3 slides, previous/next buttons, automatic rotation (pauses when tab inactive or hovered)
-- Navigation menu with responsive mobile layout
-- English / Arabic switch (RTL when Arabic), stored in browser when available
-- Discover, collection, journey, visit, and footer sections
-- Collection cards that open an accessible details dialog
-- Scroll-reveal, scroll progress, and accessibility support for reduced motion
-- Legitimate link to the official museum and official tickets, **no mock payment screens**
-
-## Folder structure
-```
-GEM-Explorer/
-  frontend/
-    index.html
-    css/style.css
-    js/app.js
-    assets/brand-mark.svg
-    assets/favicon.svg
-  backend/
-    routes/ (future)
-    controllers/ (future)
-    config/ (future)
-    middleware/ (future)
-  database/ (future)
-  docs/ (planning notes)
-  IMAGE_CREDITS.md
-  README.md
-  .gitignore
+```powershell
+cd backend
+npm.cmd install
+Copy-Item .env.example .env
+# Edit backend/.env with Supabase URL and SERVER-ONLY secret key, privately
+npm.cmd run dev
 ```
 
-## Team roles
-1. **Student 1 (Lead / ~40%)**: Design system, Homepage, global navigation, Node.js/Express app skeleton, initial MySQL setup, Admin foundation, merge/testing/deployment.
-2. Student 2 (~20%): Collection listing + detail page, client search/filter, artifact read-only API.
-3. Student 3 (~20%): Login/register/profile, user forms, secure auth API.
-4. Student 4 (~20%): Visit planning, demo booking form and booking API, booking history tests.
+If `.env` already exists, edit it instead of copying over it.
 
-Shared requirement: all students must participate in front-end, back-end, and integration. These are primary owners, not exclusive territories.
+- Homepage: http://localhost:3000/
+- AI chat UI: http://localhost:3000/ai.html
+- Express health: http://localhost:3000/api/health
+- Supabase health: http://localhost:3000/api/db-health (requires Supabase configuration/schema)
+- Museum sections: http://localhost:3000/api/sections (requires Supabase configuration/schema)
+- Public artifact list: http://localhost:3000/api/artifacts (initially empty)
 
-## Next integration contract (proposed, not implemented yet)
-When the back-end begins, use Node.js + Express + MySQL. Proposed endpoints:
-- `GET /api/artifacts` (list with search and filters)
-- `GET /api/artifacts/:id` (details)
-- `POST /api/auth/register`
-- `POST /api/auth/login`
-- `GET /api/auth/me` (protected)
-- `POST /api/bookings` (protected, **educational demo only**)
-- `GET /api/bookings/me` (protected)
-- `POST /api/admin/artifacts` (admin only)
+**Never commit `.env`, tokens, paid model API keys, or `node_modules`.** `backend/.env.example` contains placeholders only. The Supabase **publishable** key can be used in browser-side Auth with proper RLS; the secret key must stay server-side.
 
-Database tables: `users`, `artifacts`, `bookings`. Passwords must be hashed (bcrypt or argon2); never store plain-text passwords. Secrets are server-side in environment variables. Avoid presenting demo bookings as valid museum tickets.
+## GitHub Pages
+Published static URL: `https://bods-spec.github.io/GEM-Explorer/frontend/`. Pages cannot host the Node server or dynamic APIs, so the AI chat will show setup errors there until a separate backend is deployed and the frontend is configured to call it.
 
-## Design system
-- Colors in `frontend/css/style.css` under `:root` (`--gold`, `--night`, `--sand`, etc.)
-- Display font: Cormorant Garamond; UI font: DM Sans; Arabic font: Tajawal
-- Responsive breakpoints: 1050px, 800px, 580px
-- Each section has a unique `id` for anchor navigation and future routing
-- User-facing strings are centralized in `frontend/js/app.js` (translations object)
+## Current status
+- ✅ Static homepage and responsive visual design
+- ✅ Express API foundation + static site server
+- ✅ AI Guide UI + guarded placeholder API route
+- ✅ Supabase migration code and PostgreSQL schema (actual DB connection needs setup)
+- ⏳ Curated museum artifacts, users and favorites, visit planner, demo booking endpoints, verified RAG knowledge store, admin UI and full integration
 
-## Suggested smoke test
-- Slide next/previous changes the photo and title
-- Language button changes text direction and section labels
-- Menu opens and closes at mobile widths
-- Collection card opens detail popup; Esc/backdrop/close button closes it
-- Anchor links scroll to correct sections
-- Reduced-motion setting disables automatic slide movement
-- Official tickets link opens `https://tickets.gem.eg/`
-
-## Course submission
-The provided assignment template asks for a semantic responsive HTML/CSS front-end, JavaScript interactivity, Node.js backend, database, documentation, live demo, and a role description for each team member. This archive satisfies the **initial Homepage milestone** only.
-
-## Notes
-The site does not use official GEM branding or claim affiliation with the museum. Do not use the GEM logo or copyrighted images without checking permission and attribution.
+Museum content is for education and is not an official GEM website. Bookings are simulations only; never claim official tickets or process payments.
