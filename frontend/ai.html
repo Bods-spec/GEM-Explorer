@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111719">
+  <title>AI Museum Guide | GEM Explorer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/ai.css">
+  <script src="js/ai.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Back to GEM Explorer homepage"><img src="assets/brand-mark.svg" width="38" height="38" alt=""><span><b>GEM.</b><small>EXPLORER</small></span></a>
+    <a class="back" href="index.html">← Back to Home</a>
+  </header>
+  <main class="layout">
+    <div class="intro">
+      <span class="eyebrow">INTELLIGENT MUSEUM EXPERIENCE · STUDENT PROJECT</span>
+      <h1>Ask the <em>past.</em></h1>
+      <p>Ask about Egyptian antiquities in Arabic or English. The assistant will consult a curated museum knowledge base when connected.</p>
+      <p class="note"><strong>Independent educational guide.</strong> Not an official GEM service. Answers may be incomplete; verify important details with <a href="https://gem.eg/" target="_blank" rel="noopener noreferrer">GEM official website</a>.</p>
+    </div>
+    <section class="chat" aria-label="AI Museum Guide chat">
+      <div class="chathead"><span class="sparkle">✦</span> GEM AI Guide <small id="status">Checking setup…</small></div>
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="message assistant">Hello! I'm your educational museum guide. Ask me about a statue, gallery, or ancient Egyptian history. / أهلاً! اسألني عن المتحف أو القطع الأثرية.</div>
+      </div>
+      <div class="suggestions"><button type="button" data-prompt="من هو رمسيس الثاني؟">من هو رمسيس الثاني؟</button><button type="button" data-prompt="What is the Grand Hall?">What is the Grand Hall?</button></div>
+      <form id="form"><label for="question" class="sr">Your question</label><textarea id="question" placeholder="Ask anything about the museum… / اسأل عن المتحف…" maxlength="600" rows="2" required></textarea><button type="submit" id="send">Send ↗</button></form>
+      <p class="footnote">Answers are based on available curated sources. Never enter passwords or payment information.</p>
+    </section>
+  </main>
+</body>
+</html>

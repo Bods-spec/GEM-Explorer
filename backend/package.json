@@ -1,0 +1,22 @@
+{
+  "name": "gem-explorer-backend",
+  "version": "0.3.0",
+  "private": true,
+  "description": "GEM Explorer AI \u2014 Express + Supabase Postgres foundation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check config/db.js && node --check routes/artifacts.js && node --check routes/sections.js && node --check routes/dbHealth.js && node --check routes/ai.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "openai": "^6.0.0",
+    "@supabase/supabase-js": "^2.0.0"
+  }
+}
