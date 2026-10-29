@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111719" />
+  <meta name="description" content="GEM Explorer is an independent educational web project inspired by the Grand Egyptian Museum in Giza." />
+  <title>GEM Explorer | A Journey Beyond Time</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://thumb.wikimedia.org" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a href="#home" class="brand" aria-label="GEM Explorer home">
+      <img src="assets/brand-mark.svg" alt="" width="40" height="40" />
+      <span class="brand__copy"><strong>GEM<span class="brand__dot">.</span></strong><small>EXPLORER</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation" id="main-nav">
+      <a href="#home" class="nav-link is-current" data-i18n="navHome">Home</a>
+      <a href="#discover" class="nav-link" data-i18n="navMuseum">The Museum</a>
+      <a href="#collection" class="nav-link" data-i18n="navCollection">Collection</a>
+      <a href="#journey" class="nav-link" data-i18n="navExperience">Experience</a>
+      <a href="#visit" class="nav-link" data-i18n="navVisit">Plan a Visit</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch language to Arabic">عربي</button>
+      <a class="header-cta" href="#visit"><span data-i18n="headerExplore">Explore now</span><span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-label="Featured museum views">
+      <!-- CC BY-SA photos used as external image URLs; see IMAGE_CREDITS.md -->
+      <div class="hero__visuals" aria-hidden="true">
+        <div class="hero__slide is-active" style="--slide-image: url('https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Grand_Egyptian_Museum_Facade.jpg/1280px-Grand_Egyptian_Museum_Facade.jpg');"></div>
+        <div class="hero__slide" style="--slide-image: url('https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/GEM_staircase_at_night_with_visitors_2025.jpg/1280px-GEM_staircase_at_night_with_visitors_2025.jpg');"></div>
+        <div class="hero__slide" style="--slide-image: url('https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/GEM_Khufus_Boat_front_2025.jpg/1280px-GEM_Khufus_Boat_front_2025.jpg');"></div>
+      </div>
+      <div class="hero__mesh" aria-hidden="true"></div>
+      <div class="hero__content shell">
+        <div class="hero__eyebrow"><span class="gold-line" aria-hidden="true"></span><span id="hero-kicker">GIZA, EGYPT · AN ETERNAL STORY</span></div>
+        <p class="hero__serial" data-i18n="heroSerial">AN IMMERSIVE MUSEUM EXPERIENCE</p>
+        <h1 class="hero__title"><span id="hero-title-main">Where history</span><em id="hero-title-accent">comes alive.</em></h1>
+        <p class="hero__description" id="hero-description">Travel through the wonders of ancient Egypt, one extraordinary story at a time.</p>
+        <div class="hero__actions">
+          <a href="#discover" class="btn btn--gold"><span data-i18n="heroExplore">Begin exploring</span><span aria-hidden="true">↗</span></a>
+          <a href="#collection" class="text-link"><span class="text-link__circle" aria-hidden="true">→</span><span data-i18n="heroCollection">View the collection</span></a>
+        </div>
+      </div>
+      <div class="hero__footer shell">
+        <a class="scroll-cue" href="#discover"><span class="scroll-cue__stroke" aria-hidden="true"></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></a>
+        <div class="hero__pagination" aria-label="Hero slideshow controls">
+          <button type="button" id="prev-slide" class="slide-button" aria-label="Previous slide">←</button>
+          <span class="hero__number"><span id="current-slide">01</span><span class="divider-slash">/</span><span>03</span></span>
+          <button type="button" id="next-slide" class="slide-button" aria-label="Next slide">→</button>
+          <div class="slide-track" aria-hidden="true"><span id="slide-progress"></span></div>
+        </div>
+      </div>
+      <span class="hero__side-label" data-i18n="heroSide">THE GRAND EGYPTIAN MUSEUM</span>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker__inner"><span>ANCIENT STORIES · MODERN WONDER</span><span class="ticker__diamond">✦</span><span>GIZA · EGYPT</span><span class="ticker__diamond">✦</span><span>ANCIENT STORIES · MODERN WONDER</span><span class="ticker__diamond">✦</span><span>GIZA · EGYPT</span><span class="ticker__diamond">✦</span></div></div>
+
+    <section class="discover section-padding" id="discover" aria-labelledby="discover-title">
+      <div class="shell discover__grid">
+        <div class="discover__copy reveal">
+          <p class="eyebrow eyebrow--dark"><span>01</span><span data-i18n="discoverEyebrow">A NEW WAY TO DISCOVER</span></p>
+          <h2 class="section-heading" id="discover-title"><span data-i18n="discoverHeadingA">A museum built for</span> <em data-i18n="discoverHeadingB">the ages.</em></h2>
+          <p class="body-lead" data-i18n="discoverLead">Just moments from the Pyramids of Giza, the Grand Egyptian Museum brings the story of ancient Egyptian civilization into a remarkable modern space.</p>
+          <p class="body-secondary" data-i18n="discoverBody">This independent student experience is your introduction to iconic galleries, monumental architecture, and extraordinary treasures.</p>
+          <a href="#journey" class="underlined-link"><span data-i18n="discoverLink">Discover the experience</span><span aria-hidden="true">↗</span></a>
+          <div class="discover__fineprint"><span>GEM / 01</span><span data-i18n="discoverFine">A PLACE WHERE PAST MEETS FUTURE</span></div>
+        </div>
+        <div class="discover__image-wrap reveal">
+          <div class="discover__image-frame">
+            <img loading="lazy" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Grand_Egyptian_Museum_Grand_Hall.jpg/1280px-Grand_Egyptian_Museum_Grand_Hall.jpg" alt="The soaring interior and ancient statues of the Grand Egyptian Museum" width="1280" height="960" />
+            <div class="image-caption"><span data-i18n="discoverCaption">ARCHITECTURE THAT INSPIRES</span><span>29°59′N · 31°07′E</span></div>
+          </div>
+          <div class="sun-seal" aria-hidden="true"><span>GEM</span><small>EGYPT</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection section-padding" id="collection" aria-labelledby="collection-title">
+      <div class="shell">
+        <div class="section-topline reveal"><p class="eyebrow"><span>02</span><span data-i18n="collectionEyebrow">CURATED HIGHLIGHTS</span></p><span class="section-topline__aside" data-i18n="collectionNote">STORIES WORTH EXPLORING</span></div>
+        <div class="section-header reveal"><h2 class="section-heading section-heading--light" id="collection-title"><span data-i18n="collectionHeadingA">Timeless</span> <em data-i18n="collectionHeadingB">treasures.</em></h2><p data-i18n="collectionLead">Explore three remarkable chapters of the museum's story. Select a highlight to learn more.</p></div>
+        <div class="artifact-grid">
+          <button class="artifact-card reveal" type="button" data-artifact="mask" aria-haspopup="dialog">
+            <span class="artifact-card__image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Golden_mask_of_Tutankhamun.jpg/960px-Golden_mask_of_Tutankhamun.jpg" alt="Golden funerary mask of Tutankhamun" width="960" height="1280" loading="lazy" /></span>
+            <span class="artifact-card__meta"><span>01 / ROYAL TREASURE</span><span aria-hidden="true">↗</span></span>
+            <span class="artifact-card__title" data-i18n="maskTitle">The Golden Mask</span>
+            <span class="artifact-card__subtitle" data-i18n="maskSubtitle">The legacy of Tutankhamun</span>
+          </button>
+          <button class="artifact-card reveal" type="button" data-artifact="stairs" aria-haspopup="dialog">
+            <span class="artifact-card__image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/GEM_staircase_at_night_with_visitors_2025.jpg/1280px-GEM_staircase_at_night_with_visitors_2025.jpg" alt="Grand Staircase at the Grand Egyptian Museum" width="1280" height="960" loading="lazy" /></span>
+            <span class="artifact-card__meta"><span>02 / MONUMENTAL SPACE</span><span aria-hidden="true">↗</span></span>
+            <span class="artifact-card__title" data-i18n="stairsTitle">The Grand Stairs</span>
+            <span class="artifact-card__subtitle" data-i18n="stairsSubtitle">A walk among the kings</span>
+          </button>
+          <button class="artifact-card reveal" type="button" data-artifact="boat" aria-haspopup="dialog">
+            <span class="artifact-card__image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/GEM_Khufus_Boat_front_2025.jpg/1280px-GEM_Khufus_Boat_front_2025.jpg" alt="Khufu's ancient wooden boat in its museum hall" width="1280" height="960" loading="lazy" /></span>
+            <span class="artifact-card__meta"><span>03 / ANCIENT ENGINEERING</span><span aria-hidden="true">↗</span></span>
+            <span class="artifact-card__title" data-i18n="boatTitle">Khufu's Boat</span>
+            <span class="artifact-card__subtitle" data-i18n="boatSubtitle">A journey across millennia</span>
+          </button>
+        </div>
+        <p class="collection__note" data-i18n="collectionFootnote">Photography: Wikimedia Commons contributors. Educational project, not affiliated with the museum.</p>
+      </div>
+    </section>
+
+    <section class="journey section-padding" id="journey" aria-labelledby="journey-title">
+      <div class="shell journey__layout">
+        <div class="journey__intro reveal">
+          <p class="eyebrow eyebrow--dark"><span>03</span><span data-i18n="journeyEyebrow">MAKE IT YOUR JOURNEY</span></p>
+          <h2 class="section-heading" id="journey-title"><span data-i18n="journeyHeadingA">Every step,</span><em data-i18n="journeyHeadingB">a discovery.</em></h2>
+          <p class="body-secondary" data-i18n="journeyLead">A glimpse of what makes the Grand Egyptian Museum an unforgettable cultural destination.</p>
+        </div>
+        <div class="journey__list reveal">
+          <div class="journey-item"><span class="journey-item__index">01</span><div><h3 data-i18n="journeyItem1Title">Enter the Grand Hall</h3><p data-i18n="journeyItem1Desc">Take in vast contemporary architecture and monumental ancient sculptures.</p></div><span class="journey-item__arrow" aria-hidden="true">↗</span></div>
+          <div class="journey-item"><span class="journey-item__index">02</span><div><h3 data-i18n="journeyItem2Title">Discover ancient worlds</h3><p data-i18n="journeyItem2Desc">Explore galleries that follow centuries of Egyptian history.</p></div><span class="journey-item__arrow" aria-hidden="true">↗</span></div>
+          <div class="journey-item"><span class="journey-item__index">03</span><div><h3 data-i18n="journeyItem3Title">Meet the treasures</h3><p data-i18n="journeyItem3Desc">Encounter the iconic objects and stories preserved for future generations.</p></div><span class="journey-item__arrow" aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="visit__visual" aria-hidden="true"></div>
+      <div class="shell visit__content reveal">
+        <p class="eyebrow"><span>04</span><span data-i18n="visitEyebrow">YOUR ADVENTURE STARTS HERE</span></p>
+        <h2 class="section-heading section-heading--light" id="visit-title"><span data-i18n="visitHeadingA">Step into</span> <em data-i18n="visitHeadingB">history.</em></h2>
+        <p data-i18n="visitLead">Ready to see it for yourself? Explore the museum and check visiting information through its official website.</p>
+        <div class="visit__buttons"><a href="https://tickets.gem.eg/" target="_blank" rel="noopener noreferrer" class="btn btn--gold"><span data-i18n="visitOfficial">Official museum tickets</span><span aria-hidden="true">↗</span></a><a href="https://gem.eg/en/" target="_blank" rel="noopener noreferrer" class="btn btn--outline"><span data-i18n="visitWebsite">Official GEM website</span><span aria-hidden="true">↗</span></a></div>
+        <p class="visit__disclaimer" data-i18n="visitDisclaimer">GEM Explorer is an educational student project. We do not sell tickets or handle payments.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"><div class="shell footer__top"><div><div class="footer__brand">GEM<span>.</span></div><p data-i18n="footerTag">Ancient stories. A new perspective.</p></div><div class="footer__links"><a href="#home" data-i18n="navHome">Home</a><a href="#collection" data-i18n="navCollection">Collection</a><a href="#visit" data-i18n="navVisit">Plan a Visit</a><a href="https://gem.eg/en/" target="_blank" rel="noopener noreferrer" data-i18n="footerOfficial">Official Museum ↗</a></div></div><div class="shell footer__bottom"><span>© <span id="year">2026</span> GEM EXPLORER · STUDENT PROJECT</span><span data-i18n="footerDisclaimer">Independent educational prototype · Not an official museum service</span><a href="../IMAGE_CREDITS.md" target="_blank" rel="noopener" data-i18n="footerCredits">Image credits</a></div></footer>
+
+  <dialog class="artifact-dialog" id="artifact-dialog" aria-labelledby="dialog-title">
+    <button type="button" class="dialog-close" id="dialog-close" aria-label="Close details">×</button>
+    <div class="dialog__image"><img id="dialog-image" alt="" /></div>
+    <div class="dialog__content"><p class="eyebrow eyebrow--dark" data-i18n="dialogEyebrow">A CLOSER LOOK</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><button type="button" class="dialog-back" id="dialog-back"><span data-i18n="dialogBack">Back to collection</span><span aria-hidden="true">↗</span></button></div>
+  </dialog>
+</body>
+</html>
