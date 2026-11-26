@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GEM Explorer - Egyxos booking backend (plain Node.js + Supabase, rule-based chatbot)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node server.js --check",
+    "test": "node --test ../tests/chatbot.test.js ../tests/server.test.js ../tests/cancellation.test.js ../tests/modification.test.js ../tests/startup.test.js ../tests/planning-router.test.js ../tests/planning-flow.test.js ../tests/planning.test.js ../tests/guide-client.test.js ../tests/guide-route.test.js ../tests/guide-disabled.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "dotenv": "^18.0.10"
+  }
+}

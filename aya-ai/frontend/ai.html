@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111719" />
+  <meta name="description" content="Ask Egyxos, the GEM Explorer museum guide, about the Grand Egyptian Museum. Answers come from verified museum sources, with links to each source. Educational student project." />
+  <title>Ask Egyxos | GEM Explorer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <!-- Shared design system first (tokens, header, buttons, footer), then the chat styles from the visit page, then this page's additions. -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/visit.css" />
+  <link rel="stylesheet" href="css/guide.css" />
+  <!-- TEMPORARY GUEST MODE (local testing only; remove these two lines when the real login is connected) -->
+  <script defer src="js/guest-config.js"></script>
+  <script defer src="js/guest-auth.js"></script>
+  <script defer src="js/guide.js"></script>
+</head>
+<!-- page-visit gives this page the same colour tokens and header sizes as visit.html; page-guide holds the Guide-only rules. -->
+<body class="page-visit page-guide">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Icon sprite (decorative; referenced with <use>) -->
+  <svg class="icon-sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 013 3v13H8a3 3 0 01-3-3z"/><path d="M5 17a3 3 0 013-3h11"/></symbol>
+  </svg>
+
+  <!-- Header: same markup and classes as visit.html and index.html. -->
+  <header class="site-header" id="site-header">
+    <a href="index.html#home" class="brand" aria-label="GEM Explorer home">
+      <img src="assets/brand-mark.svg" alt="" width="40" height="40" />
+      <span class="brand__copy"><strong>GEM<span class="brand__dot">.</span></strong><small>EXPLORER</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation" id="main-nav">
+      <a href="index.html#home" class="nav-link" data-i18n="navHome">Home</a>
+      <a href="index.html#discover" class="nav-link" data-i18n="navMuseum">The Museum</a>
+      <a href="index.html#collection" class="nav-link" data-i18n="navCollection">Collection</a>
+      <a href="index.html#journey" class="nav-link" data-i18n="navExperience">Experience</a>
+      <a href="visit.html" class="nav-link" data-i18n="navVisit">Plan a Visit</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="ai.html" class="ai-nav-link" aria-current="page" data-i18n="aiGuide">✦ AI Guide</a>
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch language to Arabic">عربي</button>
+      <a class="header-cta" href="index.html#visit"><span data-i18n="headerExplore">Explore now</span><span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <noscript><p class="noscript-note">This page needs JavaScript to chat with Egyxos.</p></noscript>
+
+    <!-- ============ Hero ============ -->
+    <section class="book-hero guide-hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__mesh" aria-hidden="true"></div>
+      <div class="shell book-hero__grid">
+        <div class="book-hero__copy">
+          <div class="hero__eyebrow"><span class="gold-line" aria-hidden="true"></span><span data-i18n="heroEyebrow">Egyxos museum guide</span></div>
+          <h1 class="hero__title" id="hero-title"><span data-i18n="heroTitleA">Ask Egyxos</span><em data-i18n="heroTitleB">about the museum.</em></h1>
+          <p class="hero__description" data-i18n="heroSubtitle">Questions about the Grand Egyptian Museum, its galleries and its artefacts? Egyxos answers from verified museum sources and shows you where each answer comes from.</p>
+          <div class="hero__actions">
+            <a href="#chat" class="btn btn--gold" id="hero-start"><span data-i18n="heroStart">Start asking</span><span aria-hidden="true">↗</span></a>
+            <a href="visit.html" class="text-link"><span class="text-link__circle" aria-hidden="true">→</span><span data-i18n="heroBook">Book a visit instead</span></a>
+          </div>
+        </div>
+
+        <figure class="book-hero__figure">
+          <div class="book-hero__frame guide-hero__frame">
+            <img class="guide-hero__img" src="assets/egyxos.webp" width="640" height="960" alt="" data-i18n-attrs="alt:heroImgAlt" />
+            <figcaption class="image-caption"><span data-i18n="heroCaption">EGYXOS · YOUR MUSEUM GUIDE</span></figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ Chat ============ -->
+    <section class="booking guide" id="chat" aria-labelledby="chat-title">
+      <div class="shell guide__wrap">
+        <div class="chat-card">
+          <header class="chat-card__head">
+            <span class="avatar avatar--ai" aria-hidden="true"><img src="assets/egyxos-avatar.webp" width="96" height="96" alt="" /></span>
+            <div class="chat-card__titles">
+              <h2 id="chat-title" data-i18n="chatTitle">Egyxos</h2>
+              <p class="guide-sub" data-i18n="chatSub">Museum guide · answers with sources</p>
+            </div>
+            <div class="chat-card__tools">
+              <button type="button" class="link-btn" id="chat-reset" data-i18n="chatStartOver">Start over</button>
+            </div>
+          </header>
+
+          <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-relevant="additions" tabindex="0" aria-labelledby="chat-title">
+            <!-- Empty conversation state -->
+            <div class="chat-empty" id="chat-empty">
+              <div class="msg msg--ai">
+                <span class="avatar avatar--ai" aria-hidden="true"><img src="assets/egyxos-avatar.webp" width="96" height="96" alt="" /></span>
+                <div class="msg__main">
+                  <span class="msg__name">Egyxos</span>
+                  <div class="msg__bubble" data-i18n="emptyIntro">Hello! I'm Egyxos. Ask me about the Grand Egyptian Museum: its galleries, artefacts, opening hours and tickets. I answer only from verified museum sources, and I'll tell you when I can't find something.</div>
+                </div>
+              </div>
+              <p class="chat-empty__try" data-i18n="emptyTry">Type your own question or tap an example. Arabic and English both work.</p>
+              <div class="chip-row" id="empty-chips"></div>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+          </div>
+
+          <div class="chat-alert" id="chat-alert" role="alert" hidden>
+            <svg class="icon" aria-hidden="true"><use href="#i-alert"/></svg>
+            <span id="chat-alert-text"></span>
+            <button type="button" class="link-btn" id="chat-alert-retry" data-i18n="retry">Try again</button>
+          </div>
+
+          <div class="chip-row chip-row--composer" id="chat-chips" role="group" aria-label="Suggested questions" data-i18n-attrs="aria-label:chipsLabel" hidden></div>
+
+          <form class="chat-form" id="chat-form" novalidate>
+            <label class="sr" for="chat-input" data-i18n="inputLabel">Your question</label>
+            <input class="chat-input" id="chat-input" name="message" type="text" dir="auto" maxlength="500" autocomplete="off" enterkeyhint="send" placeholder="Ask about the museum…" data-i18n-attrs="placeholder:inputPlaceholder" />
+            <button class="send-btn" id="chat-send" type="submit" disabled aria-label="Send question" data-i18n-attrs="aria-label:send">
+              <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+            </button>
+          </form>
+          <p class="chat-counter" id="chat-counter" hidden></p>
+          <p class="chat-card__foot" data-i18n="chatFoot">Answers come from verified museum sources. Opening hours and prices can change, so check the official website before you visit. Independent educational prototype.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer: same markup as visit.html and index.html. -->
+  <footer class="footer" id="footer"><div class="shell footer__top"><div><div class="footer__brand">GEM<span>.</span></div><p data-i18n="footerTag">Ancient stories. A new perspective.</p></div><div class="footer__links"><a href="index.html#home" data-i18n="navHome">Home</a><a href="index.html#collection" data-i18n="navCollection">Collection</a><a href="visit.html" data-i18n="navVisit">Plan a Visit</a><a href="https://gem.eg/en/" target="_blank" rel="noopener noreferrer" data-i18n="footerOfficial">Official Museum ↗</a></div></div><div class="shell footer__bottom"><span>© <span id="year">2026</span> GEM EXPLORER · STUDENT PROJECT</span><span data-i18n="footerDisclaimer">Independent educational prototype · Not an official museum service</span><a href="../IMAGE_CREDITS.md" target="_blank" rel="noopener" data-i18n="footerCredits">Image credits</a></div></footer>
+</body>
+</html>

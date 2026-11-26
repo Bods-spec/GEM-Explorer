@@ -1,0 +1,522 @@
+[
+  {
+    "source_key": "gem-museum-story",
+    "title": "Museum Story",
+    "url": "https://gem.eg/en/about/museum-story/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-complex-map",
+    "title": "GEM Complex Map",
+    "url": "https://gem.eg/visit/plan-your-visit/museum-maps/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-tickets",
+    "title": "Official Ticketing Website",
+    "url": "https://tickets.gem.eg/",
+    "publisher": "Grand Egyptian Museum (official ticketing)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-group-tour",
+    "title": "Group Guided Tour",
+    "url": "https://gem.eg/en/visit/plan-your-visit/tours/group-guided-tour/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-private-tour",
+    "title": "Private Tour",
+    "url": "https://gem.eg/en/visit/plan-your-visit/tours/private-tour/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-faqs",
+    "title": "FAQs",
+    "url": "https://gem.eg/faqs/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-collection",
+    "title": "Collection: Treasures of GEM",
+    "url": "https://gem.eg/collection/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-grand-stairs",
+    "title": "Collection: Grand Stairs",
+    "url": "https://gem.eg/collection/grand-stairs/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-grand-hall",
+    "title": "Collection: Grand Hall",
+    "url": "https://gem.eg/collection/grand-hall/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-khufu-boat-news",
+    "title": "News: King Khufu's Boat Transferred to the Grand Egyptian Museum (7 Aug 2021)",
+    "url": "https://gem.eg/en/whats-on/news/king-khufus-boat-transferred-to-the-grand-egyptian-museum/",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-colossal-ramesses-ii",
+    "title": "Artefact: Colossal Statue of Ramesses II",
+    "url": "https://gem.eg/en/collection/artefacts/colossal-statue-of-ramesses-ii",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-obelisk-ramesses-ii",
+    "title": "Artefact: Obelisk of King Ramesses II",
+    "url": "https://gem.eg/en/collection/artefacts/obelisk-of-king-ramesses-ii",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-seated-sekhmet",
+    "title": "Artefact: Seated Statue of Goddess Sekhmet",
+    "url": "https://gem.eg/en/collection/artefacts/seated-statue-of-goddess-sekhmet",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-doorway-amenemhat-i",
+    "title": "Artefact: Doorway of King Amenemhat I",
+    "url": "https://gem.eg/en/collection/artefacts/doorway-of-king-amenemhat-i",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-thutmose-iii",
+    "title": "Artefact: Standing Statue of King Thutmose III",
+    "url": "https://gem.eg/en/collection/artefacts/standing-statue-of-king-thutmose-iii",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-ramesses-goddess",
+    "title": "Artefact: King Ramesses II and a Goddess",
+    "url": "https://gem.eg/en/collection/artefacts/king-ramesses-ii-and-a-goddess",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-djehutymose",
+    "title": "Artefact: Sarcophagus of Djehutymose",
+    "url": "https://gem.eg/en/collection/artefacts/sarcophagus-of-djehutymose",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-golden-mask",
+    "title": "Artefact: The Golden Burial Mask of Tutankhamun",
+    "url": "https://gem.eg/en/collection/artefacts/the-golden-burial-mask-of-tutankhamun",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-royal-diadem",
+    "title": "Artefact: Royal Diadem",
+    "url": "https://gem.eg/en/collection/artefacts/royal-diadem",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-outer-coffin",
+    "title": "Artefact: Outer Coffin",
+    "url": "https://gem.eg/en/collection/artefacts/outer-coffin",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-golden-throne",
+    "title": "Artefact: Golden Throne",
+    "url": "https://gem.eg/en/collection/artefacts/golden-throne",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-canopic-chest",
+    "title": "Artefact: Canopic Chest",
+    "url": "https://gem.eg/en/collection/artefacts/canopic-chest",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-guardian-khat",
+    "title": "Artefact: Guardian Statue with Khat Headdress",
+    "url": "https://gem.eg/en/collection/artefacts/guardian-statue-with-khat-headdress",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-guardian-nemes",
+    "title": "Artefact: Guardian Statue with Nemes Headcloth",
+    "url": "https://gem.eg/en/collection/artefacts/guardian-statue-with-nemes-headcloth",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-anubis-chest",
+    "title": "Artefact: Anubis on a Chest",
+    "url": "https://gem.eg/en/collection/artefacts/anubis-on-a-chest",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-funerary-bed",
+    "title": "Artefact: Model of Tutankhamun on a Funerary Bed",
+    "url": "https://gem.eg/en/collection/artefacts/model-of-tutankhamun-on-a-funerary-bed",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-art-mirror-mesehti",
+    "title": "Artefact: Mirror of Mesehti",
+    "url": "https://gem.eg/en/collection/artefacts/mirror-of-mesehti",
+    "publisher": "Grand Egyptian Museum (official site)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Team notes are written in our own words from this page."
+  },
+  {
+    "source_key": "gem-ar-museum-story",
+    "title": "قصة المتحف",
+    "url": "https://gem.eg/ar/about/museum-story/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-complex-map",
+    "title": "خريطة المتحف",
+    "url": "https://gem.eg/ar/visit/plan-your-visit/museum-maps/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-group-tour",
+    "title": "جولة المتحف الإرشادية",
+    "url": "https://gem.eg/ar/visit/plan-your-visit/tours/group-guided-tour/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-faqs",
+    "title": "الأسئلة الأكثر شيوعاً",
+    "url": "https://gem.eg/ar/faqs/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-collection",
+    "title": "المجموعات الأثرية",
+    "url": "https://gem.eg/ar/collection/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-grand-hall",
+    "title": "المجموعات الأثرية: البهو العظيم",
+    "url": "https://gem.eg/ar/collection/grand-hall/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-grand-stairs",
+    "title": "المجموعات الأثرية: الدرج العظيم",
+    "url": "https://gem.eg/ar/collection/grand-stairs/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-main-galleries",
+    "title": "المجموعات الأثرية: قاعات العرض الرئيسة",
+    "url": "https://gem.eg/ar/collection/main-galleries/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-tutankhamun-galleries",
+    "title": "المجموعات الأثرية: قاعات عرض كنوز توت عنخ آمون",
+    "url": "https://gem.eg/ar/collection/tutankhamun-galleries/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-news-main-galleries",
+    "title": "خبر: المتحف المصري الكبير يعلن عن التشغيل التجريبي لقاعات العرض الرئيسية",
+    "url": "https://gem.eg/ar/whats-on/news/grand-egyptian-museum-announces-trial-operations-of-main-galleries/",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-golden-mask",
+    "title": "قطعة أثرية: قناع الدفن الذهبي للملك توت عنخ آمون",
+    "url": "https://gem.eg/ar/collection/artefacts/the-golden-burial-mask-of-tutankhamun",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-obelisk-ramesses-ii",
+    "title": "قطعة أثرية: مسلة الملك رمسيس الثاني",
+    "url": "https://gem.eg/ar/collection/artefacts/obelisk-of-king-ramesses-ii",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-colossal-ramesses-ii",
+    "title": "قطعة أثرية: تمثال حجري ضخم للملك رمسيس الثاني",
+    "url": "https://gem.eg/ar/collection/artefacts/colossal-statue-of-ramesses-ii",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-ramesses-goddess",
+    "title": "قطعة أثرية: تمثال للملك رمسيس الثاني وإحدى المعبودات",
+    "url": "https://gem.eg/ar/collection/artefacts/king-ramesses-ii-and-a-goddess",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-seated-sekhmet",
+    "title": "قطعة أثرية: تمثال للمعبودة سخمت على هيئة اللبؤة",
+    "url": "https://gem.eg/ar/collection/artefacts/seated-statue-of-goddess-sekhmet",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-doorway-amenemhat-i",
+    "title": "قطعة أثرية: بوابة للملك أمنمحات الأول",
+    "url": "https://gem.eg/ar/collection/artefacts/doorway-of-king-amenemhat-i",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-thutmose-iii",
+    "title": "قطعة أثرية: تمثال للملك تحتمس الثالث",
+    "url": "https://gem.eg/ar/collection/artefacts/standing-statue-of-king-thutmose-iii",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-djehutymose",
+    "title": "قطعة أثرية: تابوت جحوتي مس",
+    "url": "https://gem.eg/ar/collection/artefacts/sarcophagus-of-djehutymose",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-outer-coffin",
+    "title": "قطعة أثرية: التابوت الخارجي",
+    "url": "https://gem.eg/ar/collection/artefacts/outer-coffin",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-canopic-chest",
+    "title": "قطعة أثرية: صندوق الأواني الكانوبية",
+    "url": "https://gem.eg/ar/collection/artefacts/canopic-chest",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-guardian-khat",
+    "title": "قطعة أثرية: تمثال الـكا (غطاء الرأس الخات)",
+    "url": "https://gem.eg/ar/collection/artefacts/guardian-statue-with-khat-headdress",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-guardian-nemes",
+    "title": "قطعة أثرية: تمثال الـكا (غطاء الرأس النمس)",
+    "url": "https://gem.eg/ar/collection/artefacts/guardian-statue-with-nemes-headcloth",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-anubis-chest",
+    "title": "قطعة أثرية: أنوبيس رابض فوق صندوق طقسي",
+    "url": "https://gem.eg/ar/collection/artefacts/anubis-on-a-chest",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-funerary-bed",
+    "title": "قطعة أثرية: تمثال للملك راقداً على النعش",
+    "url": "https://gem.eg/ar/collection/artefacts/model-of-tutankhamun-on-a-funerary-bed",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  },
+  {
+    "source_key": "gem-ar-art-mirror-mesehti",
+    "title": "قطعة أثرية: مرآة برونزية لمسحتي",
+    "url": "https://gem.eg/ar/collection/artefacts/mirror-of-mesehti",
+    "publisher": "المتحف المصري الكبير (الموقع الرسمي، الصفحة العربية)",
+    "source_type": "official",
+    "license": "© Grand Egyptian Museum. Facts only; no text copied.",
+    "retrieved_on": "2026-11-26",
+    "notes": "Official Arabic page: used for official Arabic names and facts. Team notes are written in our own words."
+  }
+]

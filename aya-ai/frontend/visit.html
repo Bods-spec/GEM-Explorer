@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111719" />
+  <meta name="description" content="Chat with the GEM Explorer AI assistant to create a demo booking. Educational student project; not an official Grand Egyptian Museum ticket." />
+  <title>Book Your Visit with AI | GEM Explorer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://thumb.wikimedia.org" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <!-- Shared design system first (tokens, header, buttons, footer), then page-specific styles. -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/visit.css" />
+  <!-- TEMPORARY GUEST MODE (local testing only; remove these two lines when the real login is connected) -->
+  <script defer src="js/guest-config.js"></script>
+  <script defer src="js/guest-auth.js"></script>
+  <script defer src="js/visit.js"></script>
+</head>
+<body class="page-visit">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Icon sprite (decorative; referenced with <use>) -->
+  <svg class="icon-sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 5-5"/></symbol>
+    <symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 015 .5c0 1.7-2.5 2-2.5 3.5M12 17h.01"/></symbol>
+    <symbol id="i-pass" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12"/><path d="M9 6v12" stroke-dasharray="2 2"/><path d="M13 10h5M13 14h3"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l2 7 7 2-7 2-2 7-2-7-7-2 7-2z"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18"/><path d="M8 8h8M8 12h8M8 16h5"/></symbol>
+  </svg>
+
+  <!-- Header: same markup and classes as index.html. Links point back to the homepage. -->
+  <header class="site-header" id="site-header">
+    <a href="index.html#home" class="brand" aria-label="GEM Explorer home">
+      <img src="assets/brand-mark.svg" alt="" width="40" height="40" />
+      <span class="brand__copy"><strong>GEM<span class="brand__dot">.</span></strong><small>EXPLORER</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation" id="main-nav">
+      <a href="index.html#home" class="nav-link" data-i18n="navHome">Home</a>
+      <a href="index.html#discover" class="nav-link" data-i18n="navMuseum">The Museum</a>
+      <a href="index.html#collection" class="nav-link" data-i18n="navCollection">Collection</a>
+      <a href="index.html#journey" class="nav-link" data-i18n="navExperience">Experience</a>
+      <a href="visit.html" class="nav-link is-current" aria-current="page" data-i18n="navVisit">Plan a Visit</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="ai.html" class="ai-nav-link" data-i18n="aiGuide">✦ AI Guide</a>
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch language to Arabic">عربي</button>
+      <a class="header-cta" href="index.html#visit"><span data-i18n="headerExplore">Explore now</span><span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <noscript><p class="noscript-note">This page needs JavaScript to run the demo booking assistant.</p></noscript>
+
+    <!-- ============ Hero ============ -->
+    <section class="book-hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__mesh" aria-hidden="true"></div>
+      <div class="shell book-hero__grid">
+        <div class="book-hero__copy">
+          <div class="hero__eyebrow"><span class="gold-line" aria-hidden="true"></span><span data-i18n="heroEyebrow">Egyxos booking assistant</span></div>
+          <h1 class="hero__title" id="hero-title"><span data-i18n="heroTitleA">Book your visit</span><em data-i18n="heroTitleB">with AI.</em></h1>
+          <p class="hero__description" data-i18n="heroSubtitle">Let Egyxos, our AI assistant, help you create a booking for your visit to the Grand Egyptian Museum. Just chat, and we'll take care of the details.</p>
+          </p>
+          <div class="hero__actions">
+            <a href="#chat" class="btn btn--gold" id="hero-start"><span data-i18n="heroStart">Start chatting</span><span aria-hidden="true">↗</span></a>
+            <a href="#plan" class="text-link"><span class="text-link__circle" aria-hidden="true">→</span><span data-i18n="heroHow">See opening hours</span></a>
+          </div>
+        </div>
+
+        <figure class="book-hero__figure">
+          <div class="book-hero__frame" role="img" data-i18n-attrs="aria-label:heroImgAlt" aria-label="The Grand Staircase of the Grand Egyptian Museum at night, with visitors">
+            <figcaption class="image-caption"><span data-i18n="heroCaption">THE GRAND STAIRCASE</span><span>PHOTO: MATTHÄUS WANDER · CC0</span></figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ Plan your visit (facts only, worded for this page) ============ -->
+    <section class="plan" id="plan" aria-labelledby="plan-title">
+      <div class="shell plan__grid">
+        <article class="info-card">
+          <h2 id="plan-title" data-i18n="planTitle">Before you book</h2>
+          <p data-i18n="planP1">The Grand Egyptian Museum stands beside the Giza Pyramids. A visit can take in the Tutankhamun Galleries, the Main Galleries, the Grand Hall and Grand Stairs, the Khufu's Boats Museum and the gardens.</p>
+          <p data-i18n="planP2">Chat with Egyxos below to choose a date and the number of visitors (1 to 10).</p>
+        </article>
+
+        <article class="info-card info-card--hours" aria-labelledby="hours-title">
+          <div class="info-card__head">
+            <h2 id="hours-title" data-i18n="hoursTitle">Opening Hours</h2>
+            <span class="info-card__tag" data-i18n="hoursTag">Cairo time</span>
+          </div>
+          <div class="hours">
+            <h3 data-i18n="hoursDaysA">Sunday, Monday, Tuesday, Thursday, Friday</h3>
+            <dl>
+              <div><dt data-i18n="hoursComplex">GEM Complex</dt><dd dir="ltr">8:30 AM – 7:00 PM</dd></div>
+              <div><dt data-i18n="hoursGalleries">Galleries</dt><dd dir="ltr">9:00 AM – 6:00 PM</dd></div>
+              <div><dt data-i18n="hoursLast">Last ticket sale</dt><dd dir="ltr">5:00 PM</dd></div>
+            </dl>
+          </div>
+          <div class="hours hours--late">
+            <h3 data-i18n="hoursDaysB">Saturday, Wednesday</h3>
+            <dl>
+              <div><dt data-i18n="hoursComplex">GEM Complex</dt><dd dir="ltr">8:30 AM – 10:00 PM</dd></div>
+              <div><dt data-i18n="hoursGalleries">Galleries</dt><dd dir="ltr">9:00 AM – 9:00 PM</dd></div>
+              <div><dt data-i18n="hoursLast">Last ticket sale</dt><dd dir="ltr">8:00 PM</dd></div>
+            </dl>
+          </div>
+          <p class="info-card__note" data-i18n="hoursNote">Last entry is one hour before the galleries close. Hours can change, for example during Ramadan, so check the official website before you travel.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ AI chat + booking summary ============ -->
+    <section class="booking" id="chat" aria-labelledby="chat-title">
+      <div class="shell booking__grid">
+
+        <!-- Chat card -->
+        <div class="chat-card">
+          <header class="chat-card__head">
+            <span class="avatar avatar--ai" aria-hidden="true"><img src="assets/egyxos-avatar.webp" width="96" height="96" alt="" /></span>
+            <div class="chat-card__titles">
+              <h2 id="chat-title" data-i18n="chatTitle">Egyxos</h2>
+            </div>
+            <div class="chat-card__tools">
+              <button type="button" class="link-btn" id="chat-reset" data-i18n="chatStartOver">Start over</button>
+            </div>
+          </header>
+
+          <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-relevant="additions" tabindex="0" aria-labelledby="chat-title">
+            <!-- Empty conversation state -->
+            <div class="chat-empty" id="chat-empty">
+              <div class="msg msg--ai">
+                <span class="avatar avatar--ai" aria-hidden="true"><img src="assets/egyxos-avatar.webp" width="96" height="96" alt="" /></span>
+                <div class="msg__main">
+                  <span class="msg__name">Egyxos</span>
+                  <div class="msg__bubble" data-i18n="emptyIntro">Hello! I'm Egyxos, your museum booking assistant. When would you like to visit?</div>
+                </div>
+              </div>
+              <p class="chat-empty__try" data-i18n="emptyTry">Type your own message or tap an example. Arabic and English both work.</p>
+              <div class="chip-row" id="empty-chips"></div>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+          </div>
+
+          <div class="chat-alert" id="chat-alert" role="alert" hidden>
+            <svg class="icon" aria-hidden="true"><use href="#i-alert"/></svg>
+            <span id="chat-alert-text"></span>
+            <button type="button" class="link-btn" id="chat-alert-retry" data-i18n="retry">Try again</button>
+          </div>
+
+          <div class="chip-row chip-row--composer" id="chat-chips" role="group" aria-label="Suggested replies" hidden></div>
+
+          <form class="chat-form" id="chat-form" novalidate>
+            <label class="sr" for="chat-input" data-i18n="inputLabel">Your message</label>
+            <input class="chat-input" id="chat-input" name="message" type="text" dir="auto" maxlength="200" autocomplete="off" enterkeyhint="send" placeholder="Type a message, e.g. “I want to visit tomorrow”" data-i18n-attrs="placeholder:inputPlaceholder" />
+            <button class="send-btn" id="chat-send" type="submit" disabled aria-label="Send message" data-i18n-attrs="aria-label:send">
+              <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Booking summary: a demo "pass" with a perforated tear line -->
+        <aside class="summary-card" id="summary" aria-labelledby="summary-title">
+          <div class="summary-card__top">
+            <h2 id="summary-title" data-i18n="summaryTitle">Booking Summary</h2>
+            <dl class="summary-list">
+              <div class="summary-row" id="row-name">
+                <dt data-i18n="fieldName">Visitor Name</dt>
+                <dd id="sum-name" dir="auto"></dd>
+              </div>
+              <div class="summary-row" id="row-date">
+                <dt data-i18n="fieldDate">Visit Date</dt>
+                <dd id="sum-date"></dd>
+                <p class="field-error" id="sum-date-error" role="alert" hidden></p>
+              </div>
+              <div class="summary-row" id="row-visitors">
+                <dt data-i18n="fieldVisitors">Visitors</dt>
+                <dd id="sum-visitors"></dd>
+                <p class="field-error" id="sum-visitors-error" role="alert" hidden></p>
+              </div>
+              <div class="summary-row" id="row-status">
+                <dt data-i18n="fieldStatus">Booking Status</dt>
+                <dd><span class="status-badge" id="sum-status" role="status" data-status="draft"></span></dd>
+              </div>
+              <div class="summary-row" id="row-ref" hidden>
+                <dt data-i18n="fieldRef">Booking Reference</dt>
+                <dd class="summary-ref" id="sum-ref" dir="ltr"></dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="summary-card__tear" aria-hidden="true"></div>
+
+          <div class="summary-card__bottom">
+            <p class="summary-hint" id="sum-hint"></p>
+            <button type="button" class="btn btn--gold confirm-btn" id="confirm-btn" disabled aria-describedby="sum-hint">
+              <span class="spinner" aria-hidden="true"></span>
+              <span id="confirm-label" data-i18n="confirmBtn">Confirm Demo Booking</span>
+            </button>
+            <div class="demo-stamp" id="demo-stamp" hidden>
+              <strong data-i18n="stampA">Demo booking</strong>
+            </div>
+            <button type="button" class="btn btn--ink" id="new-booking-btn" hidden data-i18n="newBooking">Start a new booking</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ My recent demo bookings ============ -->
+    <section class="history band" id="bookings" aria-labelledby="history-title">
+      <div class="shell">
+        <div class="history__head">
+          <div>
+            <h2 class="section-heading" id="history-title" data-i18n="historyTitle">My Recent Bookings</h2>
+          </div>
+          <button type="button" class="underlined-link" id="history-viewall" aria-expanded="false" hidden></button>
+        </div>
+        <div id="history-body" aria-live="polite" aria-busy="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer: same markup as index.html (duplicate footer in the homepage source is not copied). -->
+  <footer class="footer" id="footer"><div class="shell footer__top"><div><div class="footer__brand">GEM<span>.</span></div><p data-i18n="footerTag">Ancient stories. A new perspective.</p></div><div class="footer__links"><a href="index.html#home" data-i18n="navHome">Home</a><a href="index.html#collection" data-i18n="navCollection">Collection</a><a href="visit.html" data-i18n="navVisit">Plan a Visit</a><a href="https://gem.eg/en/" target="_blank" rel="noopener noreferrer" data-i18n="footerOfficial">Official Museum ↗</a></div></div><div class="shell footer__bottom"><span>© <span id="year">2026</span> GEM EXPLORER · STUDENT PROJECT</span><span data-i18n="footerDisclaimer">Independent educational prototype · Not an official museum service</span><a href="../IMAGE_CREDITS.md" target="_blank" rel="noopener" data-i18n="footerCredits">Image credits</a></div></footer>
+</body>
+</html>

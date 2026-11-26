@@ -1,0 +1,722 @@
+[
+  {
+    "chunk_key": "gem-overview-en",
+    "source_key": "gem-museum-story",
+    "entity_key": null,
+    "language": "en",
+    "content": "The Grand Egyptian Museum (GEM) describes itself as the largest museum in the world dedicated to ancient Egyptian civilisation, from prehistory to the end of the Greek and Roman periods. It opened its doors on 1 November 2025.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "76e7a2eb008bd2e25faac674b408bc47a4817a51ccc51fa3df3c830c6f799c68"
+  },
+  {
+    "chunk_key": "gem-overview-ar",
+    "source_key": "gem-museum-story",
+    "entity_key": null,
+    "language": "ar",
+    "content": "يصف المتحف المصري الكبير نفسه بأنه أكبر متحف في العالم مخصص للحضارة المصرية القديمة، من عصور ما قبل التاريخ حتى نهاية العصرين اليوناني والروماني. وقد فتح أبوابه للجمهور في الأول من نوفمبر 2025.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "032d986b5dbd080de4d00c770e203338dc2b217db6b27335153a5ec08f3702db"
+  },
+  {
+    "chunk_key": "gem-history-timeline-en",
+    "source_key": "gem-museum-story",
+    "entity_key": null,
+    "language": "en",
+    "content": "Museum timeline from GEM's own story: land near the Giza pyramids was allocated for the project in 1992; the foundation stone was laid in 2002; the Irish firm Heneghan Peng won the design competition in 2003; construction took shape between 2005 and 2008; in 2018 the statue of Ramesses II became the first artefact placed in the Grand Hall; the Grand Stairs partly opened to visitors in 2023.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "9f5b675467fb21d39db37ffb35453fa72243666714c970d22045e6290c49f85c"
+  },
+  {
+    "chunk_key": "gem-complex-size-en",
+    "source_key": "gem-complex-map",
+    "entity_key": null,
+    "language": "en",
+    "content": "The GEM complex covers about 500,000 square metres. The main building has a museum section of 92,000 square metres and a commercial section of 40,000 square metres, and both are entered through the Grand Hall.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "9e8d65509c63192ea28d1046b77929baeb77620ed236eb378b823b216f884f1a"
+  },
+  {
+    "chunk_key": "gem-ticket-includes-en",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "en",
+    "content": "According to the official ticketing site, a visit includes the Tutankhamun Galleries, the Main Galleries, the Grand Hall, the Grand Stairs, Khufu's Boats Museum, the commercial area and the outdoor gardens. Always confirm on the official site.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "ac1d22964e3076e528fe10c3763b72c62d9990b04535d6287de7837f4db5f42f"
+  },
+  {
+    "chunk_key": "gem-official-tickets-en",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "en",
+    "content": "tickets.gem.eg is the only official website for buying Grand Egyptian Museum tickets, and the museum is not responsible for tickets bought on other platforms. The booking made in GEM Explorer is a student demo and is not a museum ticket.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "bc2711882c057503984f72987c0b632a3ccb489d56c30191d6b5f349fbc72d83"
+  },
+  {
+    "chunk_key": "gem-hours-en",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "en",
+    "content": "Official opening hours listed on the ticketing site: Sunday, Monday, Tuesday, Thursday and Friday, the GEM complex is open 8:30 AM to 7:00 PM and the galleries 9:00 AM to 6:00 PM. On Saturday and Wednesday the complex is open 8:30 AM to 10:00 PM and the galleries 9:00 AM to 9:00 PM. The last entry is one hour before the galleries close. Hours can change, so check the official site before travelling.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "a18a32c672b4412f535e3c3dd7b207322d2a47319085ba84a03df389f6600350"
+  },
+  {
+    "chunk_key": "gem-hours-ar",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "ar",
+    "content": "مواعيد العمل المعلنة على موقع التذاكر الرسمي: أيام الأحد والاثنين والثلاثاء والخميس والجمعة يفتح مجمع المتحف من 8:30 صباحاً حتى 7:00 مساءً وتفتح القاعات من 9:00 صباحاً حتى 6:00 مساءً. يومي السبت والأربعاء يفتح المجمع من 8:30 صباحاً حتى 10:00 مساءً والقاعات من 9:00 صباحاً حتى 9:00 مساءً. آخر دخول قبل إغلاق القاعات بساعة. قد تتغير المواعيد، لذلك تأكد من الموقع الرسمي قبل الزيارة.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "f144e9b77d550213affcb907b7c0ec3b4e1b0f6f72d0e9e4d6e72ef1da1c746f"
+  },
+  {
+    "chunk_key": "gem-guided-tour-en",
+    "source_key": "gem-faqs",
+    "entity_key": null,
+    "language": "en",
+    "content": "The standard guided tour lasts approximately 2 hours and covers the Tutankhamun Galleries, the Grand Hall, the Grand Stairs and the Main Galleries.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "82157f9cc4cfc278a6dc82a20b97ff59532c437fbfd50854a0df43813c72c272"
+  },
+  {
+    "chunk_key": "gem-tour-sequence-en",
+    "source_key": "gem-group-tour",
+    "entity_key": null,
+    "language": "en",
+    "content": "The museum's group tour description follows this sequence: the Hanging Obelisk, the Grand Hall, the Grand Stairs, the Main Galleries, and finally the Tutankhamun Galleries. This is the order of the tour description, not a statement about walking distances.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "036f4d8e3a5bf721d620c8a8b72dba6f916b9575f388fd6df423a4eb151d0b68"
+  },
+  {
+    "chunk_key": "gem-private-tour-en",
+    "source_key": "gem-private-tour",
+    "entity_key": null,
+    "language": "en",
+    "content": "Private tours of the Main Galleries can be arranged for a person or a group and tailored to their language, interests and pace.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "e9101384d0366c7d9dd998b84cec8cdc32a19fc2267f8d108d3604d2124d9961"
+  },
+  {
+    "chunk_key": "gem-collection-range-en",
+    "source_key": "gem-collection",
+    "entity_key": null,
+    "language": "en",
+    "content": "GEM's collections range from the Prehistoric period to the Roman period, and the museum's collection pages present each artefact with its period, dynasty, material and where it was found.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "84eb66a32c7b4eed8b824ad92b471dbf8551b38366f406ab80826e47a8e8b5a1"
+  },
+  {
+    "chunk_key": "hanging-obelisk-en",
+    "source_key": "gem-art-obelisk-ramesses-ii",
+    "entity_key": "hanging-obelisk",
+    "language": "en",
+    "content": "The Hanging Obelisk of Ramesses II stands in a 30,000 square metre square. It is lifted on a platform held up by four massive pillars so visitors can see the royal cartouches carved on its base.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "424b34166fc5f56a50298ba4f6334bfb4855560650f02ab82b107d84113c1272"
+  },
+  {
+    "chunk_key": "hanging-obelisk-wording-en",
+    "source_key": "gem-art-obelisk-ramesses-ii",
+    "entity_key": "hanging-obelisk",
+    "language": "en",
+    "content": "The museum's own English artefact page calls the Hanging Obelisk the world's only hanging obelisk and the first artefact to welcome visitors. This is the museum's description of itself; we have not verified it independently, so present it as the museum's wording.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "eb2b5fa6ae0ea36a558cd6e06f84085170337f7c479ce7dfc44f27f92a2f7588"
+  },
+  {
+    "chunk_key": "obelisk-ramesses-ii-en",
+    "source_key": "gem-art-obelisk-ramesses-ii",
+    "entity_key": "obelisk-ramesses-ii",
+    "language": "en",
+    "content": "Ramesses II raised more than ten obelisks at Tanis in the Eastern Delta. This granite obelisk, 16 metres tall and weighing 87 tons, was the highest ever to stand at Tanis. Its four sides carry the king's Horus name, throne name and birth name.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "aa1f4be6df37ae7076383c3092c3af60cdaea205311f1d8542c069c8b2d8c265"
+  },
+  {
+    "chunk_key": "grand-hall-en",
+    "source_key": "gem-complex-map",
+    "entity_key": "grand-hall",
+    "language": "en",
+    "content": "The Grand Hall is the entrance to both the museum section and the commercial section of the main building. Visitors are welcomed there by the towering statue of Ramesses II.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "698b6b6fe670b16afa5e36b8ef22c2a60faddff72c586626890abd2a22de3945"
+  },
+  {
+    "chunk_key": "colossal-statue-ramesses-ii-en",
+    "source_key": "gem-art-colossal-ramesses-ii",
+    "entity_key": "colossal-statue-ramesses-ii",
+    "language": "en",
+    "content": "The colossal granite statue of Ramesses II is about 11.35 metres high and comes from Memphis (Mit Rahina), New Kingdom, Dynasty 19. It originally stood outside the main temple of the god Ptah, guarding its sacred inner space, and was long thought of as a god who listened to worshippers. His children Prince Khaemwaset and Princess Bintanath are carved behind his legs.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "1364b988966cd4d585b78fdc8076213a4bf62b7527563daa2ae78ca3f8318dfe"
+  },
+  {
+    "chunk_key": "colossal-statue-arrival-en",
+    "source_key": "gem-museum-story",
+    "entity_key": "colossal-statue-ramesses-ii",
+    "language": "en",
+    "content": "The statue of Ramesses II was the first artefact to find its home in the Grand Hall, arriving in 2018.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "6fe00f76e61c0a937b7a3cc67c9f20a7040e0e194ea1798305346a7b68299f4d"
+  },
+  {
+    "chunk_key": "grand-stairs-en",
+    "source_key": "gem-group-tour",
+    "entity_key": "grand-stairs",
+    "language": "en",
+    "content": "The Grand Stairs are described by the museum as home to 59 artefacts. Highlights listed on the collection page include the statue of the god Ptah with Ramesses II and the goddess Sekhmet, a seated statue of Sekhmet, a Hathor capital and the pyramidion of an obelisk of Queen Hatshepsut. The Grand Stairs partly opened to visitors in 2023.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "eaeced31f56ddf8cdcf530afca5089f54a06f0600dc4c2097944c6a24abb7175"
+  },
+  {
+    "chunk_key": "seated-statue-sekhmet-en",
+    "source_key": "gem-art-seated-sekhmet",
+    "entity_key": "seated-statue-sekhmet",
+    "language": "en",
+    "content": "This granite statue shows the goddess Sekhmet seated; her name means 'she who is powerful'. She was linked with fire and destruction and also with protecting the king. Amenhotep III set up many statues of her in his temple on the west bank at Thebes, and some were moved about 300 years later to the temple of the goddess Mut at Karnak.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "a7e01efd16aae8e4ef2d63297845dd2faaaca890539fd455fc6aec28ee26a12b"
+  },
+  {
+    "chunk_key": "doorway-amenemhat-i-en",
+    "source_key": "gem-art-doorway-amenemhat-i",
+    "entity_key": "doorway-amenemhat-i",
+    "language": "en",
+    "content": "The granite blocks of this doorway, a lintel and two jambs, were found in 1883 at Ezbet Helmi in the Eastern Delta (Middle Kingdom, Dynasty 12). One face has text saying Amenemhat I built a monument, and the other says Senwosret III, who ruled almost a hundred years later, renewed it.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "a685d54973ad2a54eb56f72f271085349d6a60f14377b0124937d4fbbcc9b584"
+  },
+  {
+    "chunk_key": "standing-statue-thutmose-iii-en",
+    "source_key": "gem-art-thutmose-iii",
+    "entity_key": "standing-statue-thutmose-iii",
+    "language": "en",
+    "content": "This granite statue of Thutmose III was found in 1860 at the Great Temple of Amun at Karnak. The king wears the nemes headcloth, a false beard and a kilt with a projecting front. The cartouche on the belt names Thutmose III, but traces of another name can still be seen underneath.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "1e702bf01bc2c55272ee1a3ee8217b9a97cb8795fb1b8bdb327ca59990e403f9"
+  },
+  {
+    "chunk_key": "ramesses-ii-and-a-goddess-en",
+    "source_key": "gem-art-ramesses-goddess",
+    "entity_key": "ramesses-ii-and-a-goddess",
+    "language": "en",
+    "content": "Fragments of this red granite statue were found in 1825 in the Great Temple of Amun at Tanis. It shows Ramesses II with a goddess, probably Anath, a foreign war goddess who protected the king. She touches the king's crown with one hand and rests the other on his arm.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "51353b9af7a6f7f5e5a44aff1121a2a046429b7030d2b2c3692dbf924cd9eb6c"
+  },
+  {
+    "chunk_key": "sarcophagus-djehutymose-en",
+    "source_key": "gem-art-djehutymose",
+    "entity_key": "sarcophagus-djehutymose",
+    "language": "en",
+    "content": "This granite sarcophagus was found in 1915 in a burial shaft at Tuna el-Gebel. It belonged to Djehutymose, a high official of Amun-Re and overseer of works in the House of Thoth, who lived in Dynasty 19.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "730cbfed542a4c5392aab46b6f167589ef329c56becc63fff09eec06ac8fd22a"
+  },
+  {
+    "chunk_key": "main-galleries-en",
+    "source_key": "gem-group-tour",
+    "entity_key": "main-galleries",
+    "language": "en",
+    "content": "The Main Galleries consist of twelve curated halls that tell the story of ancient Egyptian civilisation from prehistoric times to the Graeco-Roman era. Individual halls are not named or numbered in the official pages reviewed for this knowledge base, so this assistant does not describe hall numbers or hall layouts.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "a606aa5c4143b5de36a0b8d7aac74113a5df0e5511535f02fb9ab74e011c8f29"
+  },
+  {
+    "chunk_key": "mirror-of-mesehti-en",
+    "source_key": "gem-art-mirror-mesehti",
+    "entity_key": "mirror-of-mesehti",
+    "language": "en",
+    "content": "The collection page lists the Mirror of Mesehti under the Main Galleries (Middle Kingdom, Dynasty 11). It is a bronze mirror from the burial goods of Mesehti, governor of the Asyut province, made of a bronze disc and a wooden handle with a wedjat eye on each side. Mirrors like this were buried with both men and women, usually alongside combs, kohl and ointment containers.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "37cbab7e719692dd955cc767d2a200912110e52fb3917071f9348203e0f1e1a9"
+  },
+  {
+    "chunk_key": "tutankhamun-galleries-en",
+    "source_key": "gem-group-tour",
+    "entity_key": "tutankhamun-galleries",
+    "language": "en",
+    "content": "The museum calls the Tutankhamun Galleries the true heart of the museum, where over 5,000 artefacts from the young king's tomb are displayed together for the first time.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "b92b9fad3ac3744e128bc746909b8ea214c1c8505aeec39e432cfb4dd6bdde3b"
+  },
+  {
+    "chunk_key": "golden-burial-mask-en",
+    "source_key": "gem-art-golden-mask",
+    "entity_key": "golden-burial-mask",
+    "language": "en",
+    "content": "The golden burial mask of Tutankhamun is made of solid gold and is one of the most famous objects in the world. It was found over the head and shoulders of the king's mummy. It shows him as the god Osiris and as the sun god Re, and also as a true portrait of his face. An inscription on the back links parts of the mask with different gods.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "79451bb6b74b08f76f8ed8d2288520cc2fa2b3f66aafce1dc2ec41514f2bfcb7"
+  },
+  {
+    "chunk_key": "royal-diadem-en",
+    "source_key": "gem-art-royal-diadem",
+    "entity_key": "royal-diadem",
+    "language": "en",
+    "content": "The royal diadem lay under the golden mask and encircled the king's head. Its solid-gold headband is decorated with red carnelian discs and blue glass squares. A removable vulture and cobra, symbols of rule over Upper and Lower Egypt, fit onto the front.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "e2bd3a99b913f43183a6adfa55717659a483a89e3b6eb46ccf08c203fb8afa44"
+  },
+  {
+    "chunk_key": "outer-coffin-en",
+    "source_key": "gem-art-outer-coffin",
+    "entity_key": "outer-coffin",
+    "language": "en",
+    "content": "This is the largest of the three coffins found inside Tutankhamun's sarcophagus. It is human-shaped and shows the king as a mummy with crossed hands. The wooden body is covered with plaster, linen and thin gold foil, while the face, ears, neck and hands are covered with thicker hammered gold sheet.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "427fbbdc2ddafc9a7a1ea9c4c1c3831054f06481db3de3dc9ddb88e803c1802e"
+  },
+  {
+    "chunk_key": "golden-throne-en",
+    "source_key": "gem-art-golden-throne",
+    "entity_key": "golden-throne",
+    "language": "en",
+    "content": "The golden throne is a wooden armchair covered with sheets of gold and inlaid with glass, faience and semi-precious stones, found wrapped in linen in the Antechamber. The back shows the king and queen under a floral canopy beneath the rays of the Aten sun disk. Although adult-sized, it probably dates to the start of his reign.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "07a369bbd1a5ccffe77ef5604d0f5ddc9516dee7acd0052b1bcde38156fa06ca"
+  },
+  {
+    "chunk_key": "canopic-chest-en",
+    "source_key": "gem-art-canopic-chest",
+    "entity_key": "canopic-chest",
+    "language": "en",
+    "content": "Tutankhamun's canopic chest is shaped like a ritual shrine and sits on a gold-covered sledge. It has four cylindrical hollows that held four solid-gold miniature coffins, each closed by a stopper carved as a royal head. The goddesses Isis, Nephthys, Selket and Neith are carved at its corners.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "900a7e66d3ac676fe19ef9c30086a94eaa55a235e42ac636d206b425fd25c943"
+  },
+  {
+    "chunk_key": "guardian-statues-en",
+    "source_key": "gem-art-guardian-nemes",
+    "entity_key": "guardian-statues",
+    "language": "en",
+    "content": "Two almost identical life-sized statues of Tutankhamun stood facing each other before the sealed doorway to his burial chamber. One wears the nemes headcloth and the other the khat headdress; each holds a staff and a mace. They may represent the king and his ka (spirit), and the black colour evokes the Nile's fertile silt and resurrection.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "e76aa07e153977c2022331479e1e1d1ef416e93154cdd627185fb748b487e6e5"
+  },
+  {
+    "chunk_key": "anubis-on-a-chest-en",
+    "source_key": "gem-art-anubis-chest",
+    "entity_key": "anubis-on-a-chest",
+    "language": "en",
+    "content": "This large carrying chest was found just inside the Treasury of the tomb. It is shaped like a temple pylon gateway and fixed on a gilded sledge with carrying poles. A black-and-gold jackal figure of Anubis, god of mummification and guardian of the necropolis, sits on top. Inside were compartments for cult objects and jewellery.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "10c2b9fd7d72c4b3997ecd00d6d6d7a8159bae8a467b489653f88be2c0e9a164"
+  },
+  {
+    "chunk_key": "model-funerary-bed-en",
+    "source_key": "gem-art-funerary-bed",
+    "entity_key": "model-funerary-bed",
+    "language": "en",
+    "content": "This wooden model shows the king as a mummy lying on a lion-headed funerary bed, with a human-headed bird representing his ba (spirit) and a falcon, probably the king as the god Horus. Inscriptions say it was a gift to the king from Maya, 'Overseer of Works in the Valley of the Kings'.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "811529fe6270a0cd09ca720a940efe4edfeefa3afc6612528c86d58fdb8889b6"
+  },
+  {
+    "chunk_key": "khufus-boats-museum-en",
+    "source_key": "gem-khufu-boat-news",
+    "entity_key": "khufus-boats-museum",
+    "language": "en",
+    "content": "Khufu's Boats Museum is one of the areas included with a visit. In a news item dated 7 August 2021 the museum reported that King Khufu's first boat had arrived at GEM, secured inside two frames, one of wood and one of metal, for the transfer. The official pages reviewed give no further visitor details, so this assistant does not describe the boat's display or opening conditions.",
+    "verification_status": "single_source",
+    "time_sensitive": false,
+    "content_hash": "1279879239f03f7c5a1f89bedd09124109a2f283d0f195d3cea50d936826deb2"
+  },
+  {
+    "chunk_key": "gem-history-timeline-ar",
+    "source_key": "gem-ar-museum-story",
+    "entity_key": null,
+    "language": "ar",
+    "content": "من قصة المتحف على موقعه الرسمي: في عام 1992 خُصصت أرض بالقرب من أهرامات الجيزة للمشروع؛ وفي 2002 وُضع حجر الأساس؛ وفي 2003 فازت شركة هينيجان بنج المعمارية الإيرلندية بمسابقة تصميم المتحف؛ وبين 2005 و2008 انطلقت أعمال الإنشاء؛ وفي 2010 افتُتح مركز الترميم؛ وفي 2018 استقبل البهو العظيم تمثال الملك رمسيس الثاني ليكون أول قطعة أثرية تستقر في المتحف؛ وفي 2023 افتُتح الدرج العظيم جزئيًا؛ وفي 2024 افتُتحت قاعات العرض الرئيسة جزئيًا؛ وفي 2025 افتُتح المتحف بالكامل.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "e2671a8d87e6730f8dfd029a17b75ac9f98f73f5d65f7dde5c8102cec7ea3043"
+  },
+  {
+    "chunk_key": "gem-complex-size-ar",
+    "source_key": "gem-ar-complex-map",
+    "entity_key": null,
+    "language": "ar",
+    "content": "تبلغ مساحة المتحف المصري الكبير نحو 500 ألف متر مربع. ويتألف المبنى الرئيسي من قسمين: القسم المتحفي بمساحة 92 ألف متر مربع، والقسم التجاري بمساحة 40 ألف متر مربع، ويمكن الوصول إلى كل منهما عبر البهو العظيم الذي يتوسطه تمثال رمسيس الثاني.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "87b18ebfc3bc46327930662fea4d3530dea618ca21d09e970b4b9ff1bdd9c84b"
+  },
+  {
+    "chunk_key": "gem-ticket-includes-ar",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "ar",
+    "content": "بحسب موقع التذاكر الرسمي، تشمل الزيارة قاعات توت عنخ آمون، وقاعات العرض الرئيسة، والبهو العظيم، والدرج العظيم، ومتحف مراكب الملك خوفو، والمنطقة التجارية، والحدائق الخارجية. تأكد دائمًا من الموقع الرسمي.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "6dd19806e640db6ad2fa5091a65855a21bbb11fbe42bbeb2acaeff863faf222d"
+  },
+  {
+    "chunk_key": "gem-official-tickets-ar",
+    "source_key": "gem-tickets",
+    "entity_key": null,
+    "language": "ar",
+    "content": "الموقع tickets.gem.eg هو الموقع الرسمي الوحيد لشراء تذاكر المتحف المصري الكبير، والمتحف غير مسؤول عن التذاكر المشتراة من منصات أخرى. أما الحجز الذي يتم داخل GEM Explorer فهو نموذج تجريبي لمشروع طلابي وليس تذكرة للمتحف.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "ba56e723895dd6f4ed56ed87432acbe6e401e595e579c497bd2d178cfdbbb3bc"
+  },
+  {
+    "chunk_key": "gem-guided-tour-ar",
+    "source_key": "gem-ar-faqs",
+    "entity_key": null,
+    "language": "ar",
+    "content": "مدة الجولة الإرشادية القياسية نحو ساعتين، وتشمل قاعات توت عنخ آمون والبهو العظيم والدرج العظيم والقاعات الرئيسة.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "4f5c99f596dd38a882e7ec57a2db18e5297a61ee9f198bfcd5a696687b737342"
+  },
+  {
+    "chunk_key": "gem-tour-sequence-ar",
+    "source_key": "gem-ar-group-tour",
+    "entity_key": null,
+    "language": "ar",
+    "content": "يسير وصف المتحف لجولة المجموعات بهذا التسلسل: المسلة المعلقة، ثم البهو العظيم، ثم الدرج العظيم، ثم قاعات العرض الرئيسية، وأخيرًا قاعات توت عنخ آمون. هذا هو ترتيب وصف الجولة، وليس معلومة عن المسافات أو زمن المشي.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "eb008c058d13c54a695fbeda63990caf4a1e12c622398719810f2ce3cc963b19"
+  },
+  {
+    "chunk_key": "gem-private-tour-ar",
+    "source_key": "gem-private-tour",
+    "entity_key": null,
+    "language": "ar",
+    "content": "يمكن ترتيب جولات خاصة في قاعات العرض الرئيسة لشخص أو لمجموعة، وتُصمم بحسب لغتهم واهتماماتهم وإيقاع زيارتهم.",
+    "verification_status": "verified",
+    "time_sensitive": true,
+    "content_hash": "1c4b85cf842e84b1ca8e115469eaea40a584d6d3e38a2039089215dff87cf8d7"
+  },
+  {
+    "chunk_key": "gem-collection-range-ar",
+    "source_key": "gem-ar-collection",
+    "entity_key": null,
+    "language": "ar",
+    "content": "تمتد مجموعات المتحف المصري الكبير من عصور ما قبل التاريخ حتى العصرين اليوناني والروماني، وتعرض صفحات المجموعة كل قطعة أثرية مع حقبتها وأسرتها ومادة صنعها ومكان العثور عليها.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "b4a940f2ec085285853ec4c44943791e250e0ee09f45ba7b7593d119a36539ca"
+  },
+  {
+    "chunk_key": "hanging-obelisk-ar",
+    "source_key": "gem-ar-art-obelisk-ramesses-ii",
+    "entity_key": "hanging-obelisk",
+    "language": "ar",
+    "content": "المسلة المعلقة للملك رمسيس الثاني تقف في ساحة مساحتها ثلاثون ألف متر مربع أمام المدخل الرئيسي للمتحف. وهي مرفوعة على منصة تدعمها أربعة أعمدة ضخمة، حتى يتمكن الزوار من رؤية خراطيش الملك المنحوتة في أسفلها.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "10f0585b3a5119cd947d185257c46a27741af0b1e50eb691dd99535f6d515717"
+  },
+  {
+    "chunk_key": "grand-hall-ar",
+    "source_key": "gem-ar-complex-map",
+    "entity_key": "grand-hall",
+    "language": "ar",
+    "content": "البهو العظيم هو مدخل القسم المتحفي والقسم التجاري في المبنى الرئيسي، ويتوسطه تمثال رمسيس الثاني.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "bf7aab93a7189c53cfce6fa60b847ee5297cb3d23e6ee4603f8e5c46dbb46272"
+  },
+  {
+    "chunk_key": "grand-hall-highlights-ar",
+    "source_key": "gem-ar-grand-hall",
+    "entity_key": "grand-hall",
+    "language": "ar",
+    "content": "تذكر صفحة البهو العظيم على موقع المتحف من أهم قطعه: تمثال حجري ضخم للملك رمسيس الثاني، وعمود الملك مرنبتاح، وتمثال لملك بطلمي، وتمثال لملكة بطلمية.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "01f2f63d069f2c8ffcc62c27f87bb393bffd49d6b8cea3ac49652101be6c25b5"
+  },
+  {
+    "chunk_key": "grand-stairs-ar",
+    "source_key": "gem-ar-group-tour",
+    "entity_key": "grand-stairs",
+    "language": "ar",
+    "content": "يضم الدرج العظيم 59 قطعة أثرية بحسب وصف المتحف، ويأتي في جولة المتحف بعد البهو العظيم وقبل قاعات العرض الرئيسية.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "1674b0e5d7d4cc9158db4b7536b777373c1ad7741f4534ace81ed6bbe3d8e8a3"
+  },
+  {
+    "chunk_key": "grand-stairs-highlights-ar",
+    "source_key": "gem-ar-grand-stairs",
+    "entity_key": "grand-stairs",
+    "language": "ar",
+    "content": "من أهم القطع التي تعرضها صفحة الدرج العظيم: تمثال المعبود بتاح والملك رمسيس الثاني مع المعبودة سخمت، وتمثال للمعبودة سخمت على هيئة اللبؤة، وتاج عمود حتحوري، وقمة مسلة للملكة حتشبسوت.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "b1918f0e0b57af3dd6e88f65551ddd0a4a2c1e71999ee340995c6f66acef0408"
+  },
+  {
+    "chunk_key": "main-galleries-ar",
+    "source_key": "gem-ar-group-tour",
+    "entity_key": "main-galleries",
+    "language": "ar",
+    "content": "تتكون قاعات العرض الرئيسة (وتُكتب أيضًا: القاعات الرئيسية) من اثنتي عشرة قاعة منسقة بعناية تحكي قصة الحضارة المصرية من عصور ما قبل التاريخ حتى العصرين اليوناني والروماني. لا تذكر الصفحات الرسمية التي راجعناها أسماء القاعات ولا أرقامها، لذلك لا يصف المساعد أرقام القاعات أو توزيعها.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "d56c40ca2d286ffa48da8f257c98c9ca20c612573de43b59910e2e61e71beab1"
+  },
+  {
+    "chunk_key": "main-galleries-themes-ar",
+    "source_key": "gem-ar-news-main-galleries",
+    "entity_key": "main-galleries",
+    "language": "ar",
+    "content": "بحسب خبر على موقع المتحف، تأخذ قاعات العرض الرئيسية الزائر في رحلة من عصور ما قبل التاريخ (نحو 700,000 قبل الميلاد) حتى العصر الروماني (نحو 394 ميلادية) عبر ثلاثة موضوعات: الملكية والمجتمع والمعتقدات. ويمكن استكشافها بتسلسل زمني أو بحسب موضوعات محددة أو بأسلوب تفاعلي مخصص لاهتمامات الزائر.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "c8529010e671b2b77edbfe893ff5c23fd1c7e11c84ae1e2940795ae4673b4144"
+  },
+  {
+    "chunk_key": "tutankhamun-galleries-ar",
+    "source_key": "gem-ar-group-tour",
+    "entity_key": "tutankhamun-galleries",
+    "language": "ar",
+    "content": "يصف المتحف قاعات توت عنخ آمون (قاعات عرض كنوز توت عنخ آمون) بأنها قلب المتحف النابض، حيث تُعرض أكثر من 5000 قطعة أثرية من مقبرة الملك الشاب مجتمعة لأول مرة.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "1b2e2bc33697a4d935e726397d453e44dbaed61488363e9ef0ae0acd26bb2e59"
+  },
+  {
+    "chunk_key": "khufus-boats-museum-ar",
+    "source_key": "gem-khufu-boat-news",
+    "entity_key": "khufus-boats-museum",
+    "language": "ar",
+    "content": "متحف مراكب الملك خوفو من الأماكن المشمولة بالزيارة. وفي خبر منشور بتاريخ 7 أغسطس 2021 أعلن المتحف وصول مركب الملك خوفو الأولى إلى المتحف المصري الكبير بعد تأمينها داخل إطارين أحدهما من الخشب والآخر من المعدن أثناء النقل. لا تذكر الصفحات الرسمية التي راجعناها تفاصيل أخرى للزائر، لذلك لا يصف المساعد طريقة عرض المركب أو شروط الزيارة.",
+    "verification_status": "single_source",
+    "time_sensitive": false,
+    "content_hash": "2c3562fb6a9dcc1d28cdd112779b646db33923c3ae999de967ec66a028786c68"
+  },
+  {
+    "chunk_key": "hanging-obelisk-wording-ar",
+    "source_key": "gem-ar-art-obelisk-ramesses-ii",
+    "entity_key": "hanging-obelisk",
+    "language": "ar",
+    "content": "تصف صفحة المتحف الرسمية العربية المسلة المعلقة بأنها أول مسلة معلقة في العالم وأول قطعة تستقبل الزوار. هذه صياغة المتحف نفسه ولم نتحقق منها بشكل مستقل، لذلك تُعرض على أنها وصف المتحف.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "66435a3455326d9c199b82ae5d48d7f4a24d61407ae6466ac77fc9ff7c195593"
+  },
+  {
+    "chunk_key": "obelisk-ramesses-ii-ar",
+    "source_key": "gem-ar-art-obelisk-ramesses-ii",
+    "entity_key": "obelisk-ramesses-ii",
+    "language": "ar",
+    "content": "شيّد الملك رمسيس الثاني أكثر من عشر مسلات في تانيس (صان الحجر) بشرق الدلتا. وهذه المسلة الجرانيتية ارتفاعها 16 مترًا ووزنها 87 طنًا، وهي أطول مسلة أقيمت في تانيس. نُقش على جوانبها الأربعة اسم حورس واسم التتويج واسم الميلاد للملك.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "bb7c2ca2739f96f2ec870b804c61c767cf2072056152ba22b507f143ae9ffe2a"
+  },
+  {
+    "chunk_key": "colossal-statue-ramesses-ii-ar",
+    "source_key": "gem-ar-art-colossal-ramesses-ii",
+    "entity_key": "colossal-statue-ramesses-ii",
+    "language": "ar",
+    "content": "التمثال الحجري الضخم للملك رمسيس الثاني مصنوع من الجرانيت، وارتفاعه نحو 11.35 مترًا، ويعود إلى الدولة الحديثة (الأسرة التاسعة عشرة) وعُثر عليه في منف (ميت رهينة). أُقيم في الأصل خارج المعبد الرئيسي للمعبود بتاح في منف، ويظهر خلف ساقي الملك نقش لاثنين من أبنائه هما الأمير خع-ام-واست والأميرة بنت-عنات.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "f52c748be40e1f6a1b15384e21c4b0c908ba65616ece48640f5c4d668a829a1c"
+  },
+  {
+    "chunk_key": "colossal-statue-arrival-ar",
+    "source_key": "gem-ar-museum-story",
+    "entity_key": "colossal-statue-ramesses-ii",
+    "language": "ar",
+    "content": "كان تمثال الملك رمسيس الثاني أول قطعة أثرية تستقر في المتحف، إذ استقبله البهو العظيم في عام 2018.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "adbc19a98f7875f54a9a2b6aab660add4e5fd568a14ec4051780c39c25e3b9f4"
+  },
+  {
+    "chunk_key": "seated-statue-sekhmet-ar",
+    "source_key": "gem-ar-art-seated-sekhmet",
+    "entity_key": "seated-statue-sekhmet",
+    "language": "ar",
+    "content": "يُظهر هذا التمثال المعبودة سخمت التي يعني اسمها «القوية»، وقد ارتبطت بالنار والدمار، وكانت أيضًا المعبودة المسؤولة عن حماية الملك. أقام الملك أمنحتب الثالث تماثيل لها في معبده الجنائزي على الضفة الغربية بطيبة، ثم نُقل عدد منها بعد نحو 300 عام إلى الضفة الشرقية حيث وُضعت في معبد المعبودة موت بالكرنك. عنوانه على موقع المتحف: «تمثال للمعبودة سخمت على هيئة اللبؤة».",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "d284df067ef01850bd6bee445030a2b3d0feb0183071056ee9b83e6fb06346dc"
+  },
+  {
+    "chunk_key": "doorway-amenemhat-i-ar",
+    "source_key": "gem-ar-art-doorway-amenemhat-i",
+    "entity_key": "doorway-amenemhat-i",
+    "language": "ar",
+    "content": "اكتُشفت أجزاء هذه البوابة، وهي عتب وعضادتان من الجرانيت، عام 1883 في «عزبة حلمي» بشرق الدلتا (الدولة الوسطى، الأسرة الثانية عشرة). تشير النقوش المحفورة عليها إلى أن الملك أمنمحات الأول شيّد مبنى، وإلى أن الملك سنوسرت الثالث جدّد هذا الأثر بعده بنحو مائة عام.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "6250e3528d0c187db78b3862bb6d3d74ae01fdee13061a4ac5a89244ac3eed60"
+  },
+  {
+    "chunk_key": "standing-statue-thutmose-iii-ar",
+    "source_key": "gem-ar-art-thutmose-iii",
+    "entity_key": "standing-statue-thutmose-iii",
+    "language": "ar",
+    "content": "اكتُشف هذا التمثال الجرانيتي عام 1860 في معبد آمون رع بالكرنك. يرتدي الملك غطاء الرأس «النمس» ولحية مستعارة ونقبة بقسم أمامي بارز. ورغم أن الخرطوش على حزام النقبة يحمل اسم تحتمس الثالث، لا تزال آثار اسم ملكي آخر ظاهرة، ويُحتمل أن التمثال صُنع في الأصل للملكة حتشبسوت ثم نُسب لاحقًا إلى ربيبها تحتمس الثالث.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "3adbd029fa5fa200fd897a16fe4943ffc424e69cc4edad1fc51c338fc902bee3"
+  },
+  {
+    "chunk_key": "ramesses-ii-and-a-goddess-ar",
+    "source_key": "gem-ar-art-ramesses-goddess",
+    "entity_key": "ramesses-ii-and-a-goddess",
+    "language": "ar",
+    "content": "اكتُشفت أجزاء من هذا التمثال الجرانيتي الأحمر عام 1825 في معبد آمون الكبير بتانيس (صان الحجر). يصور التمثال الملك رمسيس الثاني وإحدى المعبودات، ربما المعبودة عِنات التي كانت حامية الملك؛ فهي تلمس تاج الملك بيدها اليمنى وتضع يدها اليسرى على ذراعه. ولا يحمل التمثال نقشًا باسم الملك، لكن نسبته إلى رمسيس الثاني تستند إلى سياق الكشف عن عدد كبير من منحوتاته في تانيس وإلى سماته الفنية.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "5fff3b94f22814b5e08abb63177d48b587324ef01dad0db1775c97e93702219b"
+  },
+  {
+    "chunk_key": "sarcophagus-djehutymose-ar",
+    "source_key": "gem-ar-art-djehutymose",
+    "entity_key": "sarcophagus-djehutymose",
+    "language": "ar",
+    "content": "عُثر على هذا التابوت الجرانيتي الضخم عام 1915 داخل بئر للدفن بمنطقة تونا الجبل. حمل صاحبه «جحوتي مس» ألقابًا إدارية وكهنوتية مهمة في الأسرة التاسعة عشرة، منها «المشرف على الأعمال في معبد جحوتي». ويصور غطاء التابوت المتوفى على هيئة مومياء، كما صُورت عليه المعبودة نوت بجناحين مبسوطين في وضع الحماية.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "a1daff7746a288f78669a95835a291f93d572db0992968e016908af40dae8a3a"
+  },
+  {
+    "chunk_key": "mirror-of-mesehti-ar",
+    "source_key": "gem-ar-art-mirror-mesehti",
+    "entity_key": "mirror-of-mesehti",
+    "language": "ar",
+    "content": "عُثر على هذه المرآة البرونزية ضمن مقتنيات النبيل مسحتي، حاكم إقليم أسيوط في الأسرة الحادية عشرة (الدولة الوسطى). وهي مصنوعة من البرونز ولها مقبض خشبي صُورت على جانبيه عينا «الودجات». استُخدمت المرايا ضمن لوازم التجميل في مصر القديمة، وكان امتلاكها مؤشرًا على الترف، وقد دُفنت ضمن الأثاث الجنائزي للرجال والنساء. عنوانها على موقع المتحف: «مرآة برونزية لمسحتي».",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "de7f62c6ef4b27791b1a1bf72f9116fcc8acdd9269ebc0c60afbe20309114490"
+  },
+  {
+    "chunk_key": "golden-burial-mask-ar",
+    "source_key": "gem-ar-art-golden-mask",
+    "entity_key": "golden-burial-mask",
+    "language": "ar",
+    "content": "قناع الدفن الذهبي للملك توت عنخ آمون مصنوع من الذهب، وهو من أشهر القطع الأثرية في العالم. عُثر عليه موضوعًا على رأس وكتفي مومياء الملك، ويصوره كأنه أوزير حاكم العالم الآخر ورع معبود الشمس، كما يُعد نسخة مثالية من ملامح وجهه المعروفة من التوابيت والتماثيل ومناظر المعابد. ويحمي النقش على ظهر القناع رأس الملك بربط أجزائه بمعبودات مختلفة؛ فالجبهة تُنسب إلى أنوبيس.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "2e7024e66c710b112f770e4aaaf79c765f4204c1a37e65ac9267dd3ccd389a91"
+  },
+  {
+    "chunk_key": "royal-diadem-ar",
+    "source_key": "gem-art-royal-diadem",
+    "entity_key": "royal-diadem",
+    "language": "ar",
+    "content": "الإكليل الملكي وُجد تحت القناع الذهبي وكان يحيط برأس الملك. عصابته من الذهب الخالص مزينة بأقراص من العقيق الأحمر ومربعات من الزجاج الأزرق، ويُثبت في مقدمته نسر وكوبرا قابلان للفصل، وهما رمزان للحكم على مصر العليا والسفلى.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "6f4c1fb5b66fc5ccdc9a110e3bd0c96639637143142847c8cf0c14915f907794"
+  },
+  {
+    "chunk_key": "outer-coffin-ar",
+    "source_key": "gem-ar-art-outer-coffin",
+    "entity_key": "outer-coffin",
+    "language": "ar",
+    "content": "التابوت الخارجي هو الأكبر بين ثلاثة توابيت عُثر عليها داخل التابوت الحجري للملك توت عنخ آمون. يظهر بهيئة آدمية على شكل مومياء معقودة اليدين على الصدر. صُنع من الخشب المغطى بطبقة من الجص والكتان ورقائق رقيقة من الذهب، بينما غُطي وجه الملك وأذناه وعنقه ويداه برقائق ذهب أكثر سمكًا. ويروي هوارد كارتر أنه دُهش عند رؤيته بعد رفع غطاء التابوت الحجري وإزالة طبقتين من اللفائف الكتانية.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "2e731306e30bc507ec87f125d7b9479aa3f86e924882d38fd31c2cc57db120d0"
+  },
+  {
+    "chunk_key": "golden-throne-ar",
+    "source_key": "gem-art-golden-throne",
+    "entity_key": "golden-throne",
+    "language": "ar",
+    "content": "كرسي العرش الذهبي كرسي خشبي مغطى بصفائح الذهب ومطعم بالزجاج والفيانس والأحجار شبه الكريمة، عُثر عليه ملفوفًا بالكتان في الغرفة الأمامية للمقبرة. يصور ظهره الملك والملكة تحت مظلة زهرية أسفل أشعة قرص آتون. ورغم أن حجمه حجم رجل بالغ، يُرجَّح أنه يعود إلى بداية حكم الملك.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "abd628c674b68f49d013af94ce173645e1f29860c4978c1e76e6031ae3838067"
+  },
+  {
+    "chunk_key": "canopic-chest-ar",
+    "source_key": "gem-ar-art-canopic-chest",
+    "entity_key": "canopic-chest",
+    "language": "ar",
+    "content": "صندوق الأواني الكانوبية للملك توت عنخ آمون مصمم على هيئة مقصورة طقسية بغطاء مائل مثبت بحبال من الكتان، ويستقر على زلاجة خشبية مذهبة. يحتوي على أربع فجوات أسطوانية يعلو كل منها غطاء على شكل رأس ملكي، ضمت أربعة توابيت صغيرة من الذهب الخالص لحفظ أحشاء الملك التي نُزعت أثناء التحنيط. وتزين أركانه نقوش بارزة للمعبودات الحاميات إيزيس ونفتيس وسرقت ونيت.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "a24c722867b6d5804a6a3388048040845af9377c8f5619b26bbe30bc12a0aa44"
+  },
+  {
+    "chunk_key": "guardian-statues-ar",
+    "source_key": "gem-ar-art-guardian-khat",
+    "entity_key": "guardian-statues",
+    "language": "ar",
+    "content": "عُثر على تمثالين للملك توت عنخ آمون أمام مدخل غرفة الدفن في مقبرته، وتحاكي بعض ملامحهما فن العمارنة. يعبر التمثالان في الأغلب عن الملك والـ«كا» الخاصة به (الروح). يسمي موقع المتحف كل واحد منهما «تمثال الـكا»، وفي أحدهما يرتدي الملك غطاء الرأس المعروف بـ«الخات».",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "e32602742984c143147e1835a69c864cf5e2789dd77dab23c398ae177e232063"
+  },
+  {
+    "chunk_key": "guardian-statues-nemes-ar",
+    "source_key": "gem-ar-art-guardian-nemes",
+    "entity_key": "guardian-statues",
+    "language": "ar",
+    "content": "في التمثال الثاني من تمثالي الـكا يرتدي الملك غطاء الرأس «النمس» ومئزرًا ملكيًا نُقش على مقدمته اسم توت عنخ آمون ودعاء بأن يُعطى الحياة للأبد مثل رع كل يوم. ويحاكي اللون الأسود للتمثال لون التربة المصرية الخصبة التي يجلبها فيضان النيل، كما يرمز للبعث.",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "eda6f7d88f004947cdd24c8b21b20f6b2ab7b2bde1e5cbf5acf084d252aafc9e"
+  },
+  {
+    "chunk_key": "anubis-on-a-chest-ar",
+    "source_key": "gem-ar-art-anubis-chest",
+    "entity_key": "anubis-on-a-chest",
+    "language": "ar",
+    "content": "عُثر على هذا الصندوق الخشبي الكبير في حجرة الخزانة بمقبرة توت عنخ آمون، وهو مصمم على هيئة جدران الصرح في المعبد المصري القديم، ومثبت على محفة خشبية مذهبة ذات حوامل طويلة. يعلوه تمثال مطلي بالأسود والذهبي للمعبود أنوبيس، رب التحنيط وحارس الجبانة، في هيئة ابن آوى. ويضم من الداخل أربع فجوات صغيرة لأدوات طقسية ملفوفة بالكتان وفجوة كبيرة لحفظ الحلي. عنوانه على موقع المتحف: «أنوبيس رابض فوق صندوق طقسي».",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "6040936a4f2ea90e043b33fbc77c4a4330a811bf4bf099f5b2afb25c5ada5f08"
+  },
+  {
+    "chunk_key": "model-funerary-bed-ar",
+    "source_key": "gem-ar-art-funerary-bed",
+    "entity_key": "model-funerary-bed",
+    "language": "ar",
+    "content": "عُثر على هذا التمثال الخشبي الصغير ملفوفًا بالكتان داخل صندوق خشبي صغير على هيئة تابوت ضم أيضًا خمسة نماذج لأدوات تماثيل الشابتي. يصور الملك على هيئة مومياء راقدة على سرير جنائزي برأس أسد، وعند مرفقيه صقر يمثل المعبود حورس وطائر برأس آدمي يمثل «با» الملك أو روحه. وتشير النقوش إلى أنه هدية للملك من «مايا» المشرف على الأعمال في وادي الملوك. عنوانه على موقع المتحف: «تمثال للملك راقداً على النعش».",
+    "verification_status": "verified",
+    "time_sensitive": false,
+    "content_hash": "d7783fea6aa671c3d62533f1459b2cd4cbec9f808d49fac2da48ebb09e57ae95"
+  }
+]

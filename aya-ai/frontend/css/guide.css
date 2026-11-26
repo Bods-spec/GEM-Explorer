@@ -1,0 +1,87 @@
+/* ==========================================================================
+   GEM Explorer | AI Museum Guide page (ai.html)
+   Loaded AFTER css/style.css and css/visit.css. The chat card, message bubbles, chips, typing dots,
+   alert and composer all come from visit.css; only what is new for the Guide lives here:
+   the hero figure, the sources under an answer, citation marks, the booking hand-over card.
+   Logical properties (inline-start/end) are used throughout so Arabic RTL needs very few overrides.
+   ========================================================================== */
+
+/* ---------- Hero: Egyxos instead of the staircase photo ---------- */
+.guide-hero__frame{display:flex;align-items:flex-end;justify-content:center;background:radial-gradient(120% 90% at 50% 20%,#2a3a3d 0%,#16232a 55%,#0d171b 100%)}
+.guide-hero__frame::before{background:radial-gradient(60% 45% at 50% 38%,rgba(215,183,122,.22),transparent 70%),linear-gradient(0deg,rgba(5,13,18,.5),transparent 40%);filter:none}
+.guide-hero__img{position:relative;z-index:1;display:block;height:92%;width:auto;max-width:100%;object-fit:contain;object-position:bottom center;margin-bottom:46px;filter:drop-shadow(0 18px 28px rgba(0,0,0,.45))}
+.guide-hero .image-caption{justify-content:center}
+
+/* ---------- Chat card: one centred column ---------- */
+.guide__wrap{max-width:900px}
+.page-guide .booking{padding-top:clamp(36px,4.4vw,60px)}
+.guide-sub{margin:4px 0 0;font-size:12.5px;line-height:1.5;color:var(--text-soft)}
+.page-guide .chat-log{height:clamp(420px,62vh,640px)}
+.page-guide .msg{max-width:min(92%,720px)}
+.page-guide .msg--ai .msg__main{flex:1 1 auto}
+.guide-link{color:var(--bronze);font-weight:600;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.guide-link:hover{color:#4e3d1e}
+
+/* ---------- Citation marks inside an answer ---------- */
+.cite{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px;margin-inline:2px;padding:0 6px;border:1px solid var(--gold-dark);background:#f6ead0;color:var(--bronze);font:700 12px/1 var(--sans);text-decoration:none;vertical-align:.1em;transition:background .2s,color .2s}
+.cite:hover,.cite:focus-visible{background:var(--bronze);color:#fff}
+.cite-join{white-space:nowrap}
+
+/* ---------- Sources under an answer ---------- */
+.guide-sources{margin:2px 0 0;padding:12px 14px 10px;border:1px solid var(--ivory-line);background:rgba(255,253,248,.7)}
+.guide-sources__title{margin:0 0 8px;font:700 12px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--bronze)}
+html[lang="ar"] .guide-sources__title{letter-spacing:0;text-transform:none;font-size:13px}
+.guide-sources__list{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.guide-source__link{display:flex;align-items:flex-start;gap:10px;min-height:44px;padding:8px 10px;color:var(--ink);text-decoration:none;border:1px solid transparent;transition:background .2s,border-color .2s}
+.guide-source__link:hover,.guide-source__link:focus-visible{background:#f6ead0;border-color:var(--gold-dark)}
+.guide-source__num{flex:none;display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;border:1px solid var(--gold-dark);background:#f6ead0;color:var(--bronze);font:700 12px/1 var(--sans)}
+.guide-source__text{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.guide-source__title{font-size:13.5px;font-weight:600;line-height:1.5;overflow-wrap:anywhere}
+.guide-source__meta{font-size:12px;line-height:1.5;color:var(--text-soft);overflow-wrap:anywhere}
+.guide-source__out{flex:none;color:var(--bronze);font-weight:700}
+
+/* ---------- Time-sensitive tag ---------- */
+.guide-tag{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;margin:0;padding:5px 10px;border:1px solid var(--wait-line);background:var(--wait-bg);color:var(--wait);font-size:12px;font-weight:700;line-height:1.5}
+.guide-tag .icon{width:16px;height:16px}
+
+/* ---------- Booking hand-over ---------- */
+.guide-handoff{display:grid;gap:8px;margin:2px 0 0;padding:16px 18px;border:1px solid var(--gold-dark);background:#fff8e8}
+.guide-handoff__title{font:500 22px/1.2 var(--display);color:var(--ink)}
+html[lang="ar"] .guide-handoff__title{font-family:var(--arabic);font-weight:700;font-size:19px}
+.guide-handoff__text{margin:0;font-size:13.5px;line-height:1.7;color:var(--text-soft)}
+.guide-handoff__btn{justify-self:start;min-height:48px;padding:12px 20px;gap:18px}
+
+/* ---------- Small system note inside the conversation ---------- */
+.guide-note{margin:0;padding:6px 12px;align-self:center;text-align:center;font-size:12.5px;line-height:1.6;color:var(--text-soft);border:1px dashed var(--ivory-line);background:rgba(255,253,248,.6)}
+
+/* ---------- Composer extras ---------- */
+.chat-counter{margin:0;padding:0 clamp(18px,2.4vw,30px);font-size:12px;line-height:1.4;color:var(--text-soft);text-align:end;font-variant-numeric:tabular-nums}
+.chat-counter.is-full{color:var(--bad);font-weight:700}
+.chat-alert .link-btn{white-space:nowrap}
+.chat-alert .link-btn:disabled{opacity:.5;cursor:not-allowed}
+.page-guide .chat-card__titles h2{overflow-wrap:anywhere}
+
+/* ---------- Arabic / RTL ---------- */
+html[lang="ar"] .page-guide .chip{font-family:var(--arabic)}
+html[lang="ar"] .guide-source__title,html[lang="ar"] .guide-source__meta{font-family:var(--arabic)}
+html[dir="rtl"] .guide-hero__frame{box-shadow:-22px 22px 0 rgba(215,183,122,.16)}
+
+/* ---------- Responsive ---------- */
+@media(max-width:900px){
+  .guide-hero__frame{aspect-ratio:16/11;max-height:420px}
+  .guide-hero__img{height:92%;margin-bottom:42px}
+}
+@media(max-width:580px){
+  .page-guide .chat-log{height:clamp(380px,64vh,560px)}
+  .page-guide .msg{max-width:96%}
+  .guide-sources{padding:10px 10px 8px}
+  .guide-source__link{padding:8px 6px}
+  .guide-handoff__btn{justify-self:stretch;justify-content:space-between}
+  .guide-hero__frame{aspect-ratio:4/4.2}
+  /* 16px keeps iPhones from zooming into the field */
+  .page-guide .chat-input,html[lang="ar"] .page-guide .chat-input{font-size:16px}
+  .chat-alert{flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){
+  .cite,.guide-source__link{transition:none}
+}

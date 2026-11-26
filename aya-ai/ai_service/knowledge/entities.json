@@ -1,0 +1,550 @@
+[
+  {
+    "entity_key": "hanging-obelisk",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Hanging Obelisk",
+    "name_ar": "المسلة المعلقة",
+    "summary_en": "A 16 m granite obelisk of Ramesses II from Tanis, raised on four pillars so visitors can see the cartouches carved on its base.",
+    "summary_ar": "مسلة من الجرانيت للملك رمسيس الثاني من تانيس، ارتفاعها 16 مترًا، مرفوعة على أربعة أعمدة ليرى الزوار الخراطيش المنقوشة أسفلها.",
+    "period": "New Kingdom",
+    "ruler": "Ramesses II",
+    "suggested_minutes": 10,
+    "minutes_basis": "team_estimate",
+    "visit_order": 1,
+    "interest_tags": [
+      "kings",
+      "obelisks",
+      "architecture",
+      "ramesses",
+      "photography"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-obelisk-ramesses-ii",
+      "gem-group-tour",
+      "gem-ar-art-obelisk-ramesses-ii",
+      "gem-ar-group-tour"
+    ]
+  },
+  {
+    "entity_key": "grand-hall",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Grand Hall",
+    "name_ar": "البهو العظيم",
+    "summary_en": "The entrance hall of the museum, where the colossal statue of Ramesses II greets visitors.",
+    "summary_ar": "بهو الدخول الرئيسي للمتحف، يتوسطه تمثال رمسيس الثاني الضخم.",
+    "period": null,
+    "ruler": null,
+    "suggested_minutes": 15,
+    "minutes_basis": "team_estimate",
+    "visit_order": 2,
+    "interest_tags": [
+      "kings",
+      "statues",
+      "architecture",
+      "ramesses",
+      "photography"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-complex-map",
+      "gem-grand-hall",
+      "gem-ar-complex-map",
+      "gem-ar-grand-hall"
+    ]
+  },
+  {
+    "entity_key": "grand-stairs",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Grand Stairs",
+    "name_ar": "الدرج العظيم",
+    "summary_en": "A staircase gallery with 59 artefacts: royal statues, gods and goddesses, temple and tomb pieces.",
+    "summary_ar": "درج عرض يضم 59 قطعة أثرية، بينها تماثيل ملكية وتماثيل للمعبودات وقطع من المعابد والمقابر.",
+    "period": null,
+    "ruler": null,
+    "suggested_minutes": 30,
+    "minutes_basis": "team_estimate",
+    "visit_order": 3,
+    "interest_tags": [
+      "kings",
+      "gods",
+      "statues",
+      "history",
+      "architecture"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-group-tour",
+      "gem-grand-stairs",
+      "gem-ar-group-tour",
+      "gem-ar-grand-stairs"
+    ]
+  },
+  {
+    "entity_key": "main-galleries",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Main Galleries",
+    "name_ar": "قاعات العرض الرئيسة",
+    "summary_en": "Twelve curated halls telling the story of ancient Egypt from prehistoric times to the Graeco-Roman era.",
+    "summary_ar": "اثنتا عشرة قاعة منسقة تحكي قصة مصر القديمة من عصور ما قبل التاريخ حتى العصرين اليوناني والروماني.",
+    "period": null,
+    "ruler": null,
+    "suggested_minutes": 75,
+    "minutes_basis": "team_estimate",
+    "visit_order": 4,
+    "interest_tags": [
+      "history",
+      "daily-life",
+      "kings",
+      "gods",
+      "funerary"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-group-tour",
+      "gem-ar-group-tour",
+      "gem-ar-main-galleries",
+      "gem-ar-news-main-galleries"
+    ]
+  },
+  {
+    "entity_key": "tutankhamun-galleries",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Tutankhamun Galleries",
+    "name_ar": "قاعات عرض كنوز توت عنخ آمون",
+    "summary_en": "Over 5,000 objects from the tomb of Tutankhamun, displayed together for the first time.",
+    "summary_ar": "أكثر من 5000 قطعة أثرية من مقبرة توت عنخ آمون معروضة معًا لأول مرة.",
+    "period": "New Kingdom",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": 60,
+    "minutes_basis": "team_estimate",
+    "visit_order": 5,
+    "interest_tags": [
+      "tutankhamun",
+      "kings",
+      "gold",
+      "funerary",
+      "treasures"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-group-tour",
+      "gem-ar-group-tour",
+      "gem-ar-tutankhamun-galleries"
+    ]
+  },
+  {
+    "entity_key": "khufus-boats-museum",
+    "kind": "area",
+    "parent_key": null,
+    "name_en": "Khufu's Boats Museum",
+    "name_ar": "متحف مراكب الملك خوفو",
+    "summary_en": "One of the areas included with a visit; the first Khufu boat was moved to GEM in August 2021.",
+    "summary_ar": "من الأماكن المشمولة بالزيارة؛ وصلت مركب الملك خوفو الأولى إلى المتحف المصري الكبير في أغسطس 2021.",
+    "period": null,
+    "ruler": "Khufu",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "boats",
+      "pyramids",
+      "history"
+    ],
+    "verification_status": "single_source",
+    "source_keys": [
+      "gem-tickets",
+      "gem-khufu-boat-news",
+      "gem-ar-collection"
+    ]
+  },
+  {
+    "entity_key": "colossal-statue-ramesses-ii",
+    "kind": "artifact",
+    "parent_key": "grand-hall",
+    "name_en": "Colossal Statue of Ramesses II",
+    "name_ar": "تمثال حجري ضخم للملك رمسيس الثاني",
+    "summary_en": "Granite statue about 11.35 m high that once guarded the temple of Ptah at Memphis.",
+    "summary_ar": "تمثال من الجرانيت ارتفاعه نحو 11.35 مترًا، كان في الأصل خارج معبد بتاح في منف.",
+    "period": "New Kingdom, Dynasty 19",
+    "ruler": "Ramesses II",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "kings",
+      "statues",
+      "ramesses"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-colossal-ramesses-ii",
+      "gem-ar-art-colossal-ramesses-ii"
+    ]
+  },
+  {
+    "entity_key": "obelisk-ramesses-ii",
+    "kind": "artifact",
+    "parent_key": "hanging-obelisk",
+    "name_en": "Obelisk of King Ramesses II",
+    "name_ar": "مسلة الملك رمسيس الثاني",
+    "summary_en": "87-ton granite obelisk from Tanis, 16 m high, the tallest ever to stand at Tanis.",
+    "summary_ar": "مسلة من الجرانيت وزنها 87 طنًا وارتفاعها 16 مترًا، وهي أطول مسلة أقيمت في تانيس.",
+    "period": "New Kingdom, Dynasty 19",
+    "ruler": "Ramesses II",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "kings",
+      "obelisks",
+      "ramesses"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-obelisk-ramesses-ii",
+      "gem-ar-art-obelisk-ramesses-ii"
+    ]
+  },
+  {
+    "entity_key": "seated-statue-sekhmet",
+    "kind": "artifact",
+    "parent_key": "grand-stairs",
+    "name_en": "Seated Statue of Goddess Sekhmet",
+    "name_ar": "تمثال للمعبودة سخمت على هيئة اللبؤة",
+    "summary_en": "Granite statue of the goddess Sekhmet, from the time of Amenhotep III.",
+    "summary_ar": "تمثال من الجرانيت للمعبودة سخمت من عهد الملك أمنحتب الثالث.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Amenhotep III",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "gods",
+      "statues"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-seated-sekhmet",
+      "gem-ar-art-seated-sekhmet"
+    ]
+  },
+  {
+    "entity_key": "doorway-amenemhat-i",
+    "kind": "artifact",
+    "parent_key": "grand-stairs",
+    "name_en": "Doorway of King Amenemhat I",
+    "name_ar": "بوابة للملك أمنمحات الأول",
+    "summary_en": "Granite doorway found in the Delta, inscribed by Amenemhat I and renewed by Senwosret III.",
+    "summary_ar": "بوابة من الجرانيت عُثر عليها في الدلتا، نُقش عليها اسم أمنمحات الأول وجددها سنوسرت الثالث.",
+    "period": "Middle Kingdom, Dynasty 12",
+    "ruler": "Amenemhat I",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "kings",
+      "architecture",
+      "history"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-doorway-amenemhat-i",
+      "gem-ar-art-doorway-amenemhat-i"
+    ]
+  },
+  {
+    "entity_key": "standing-statue-thutmose-iii",
+    "kind": "artifact",
+    "parent_key": "grand-stairs",
+    "name_en": "Standing Statue of King Thutmose III",
+    "name_ar": "تمثال للملك تحتمس الثالث",
+    "summary_en": "Granite statue from Karnak whose belt cartouche hides traces of an earlier name.",
+    "summary_ar": "تمثال من الجرانيت من الكرنك، تظهر تحت خرطوش تحتمس الثالث على الحزام آثار اسم ملكي آخر.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Thutmose III",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "kings",
+      "statues"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-thutmose-iii",
+      "gem-ar-art-thutmose-iii"
+    ]
+  },
+  {
+    "entity_key": "ramesses-ii-and-a-goddess",
+    "kind": "artifact",
+    "parent_key": "grand-stairs",
+    "name_en": "King Ramesses II and a Goddess",
+    "name_ar": "تمثال للملك رمسيس الثاني وإحدى المعبودات",
+    "summary_en": "Red granite statue from Tanis showing the king with a protective goddess, probably Anath.",
+    "summary_ar": "تمثال من الجرانيت الأحمر من تانيس يصور الملك مع معبودة حامية، ربما عِنات.",
+    "period": "New Kingdom, Dynasty 19",
+    "ruler": "Ramesses II",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "kings",
+      "gods",
+      "statues",
+      "ramesses"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-ramesses-goddess",
+      "gem-ar-art-ramesses-goddess"
+    ]
+  },
+  {
+    "entity_key": "sarcophagus-djehutymose",
+    "kind": "artifact",
+    "parent_key": "grand-stairs",
+    "name_en": "Sarcophagus of Djehutymose",
+    "name_ar": "تابوت جحوتي مس",
+    "summary_en": "Granite sarcophagus of an official of Amun-Re, found at Tuna el-Gebel in 1915.",
+    "summary_ar": "تابوت من الجرانيت لموظف كبير لدى آمون رع، عُثر عليه في تونا الجبل عام 1915.",
+    "period": "New Kingdom, Dynasty 19",
+    "ruler": null,
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "funerary",
+      "history"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-djehutymose",
+      "gem-ar-art-djehutymose"
+    ]
+  },
+  {
+    "entity_key": "golden-burial-mask",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "The Golden Burial Mask of Tutankhamun",
+    "name_ar": "قناع الدفن الذهبي للملك توت عنخ آمون",
+    "summary_en": "Solid-gold funerary mask found over the head and shoulders of the king's mummy.",
+    "summary_ar": "قناع جنائزي من الذهب وُجد فوق رأس وكتفي مومياء الملك.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "gold",
+      "funerary",
+      "treasures"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-golden-mask",
+      "gem-ar-art-golden-mask",
+      "gem-ar-tutankhamun-galleries"
+    ]
+  },
+  {
+    "entity_key": "royal-diadem",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Royal Diadem",
+    "name_ar": "الإكليل الملكي",
+    "summary_en": "Gold headband inlaid with carnelian and glass, found beneath the golden mask.",
+    "summary_ar": "عصابة رأس من الذهب مطعمة بالعقيق الأحمر والزجاج، وُجدت تحت القناع الذهبي.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "gold",
+      "treasures"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-royal-diadem",
+      "gem-ar-tutankhamun-galleries"
+    ]
+  },
+  {
+    "entity_key": "outer-coffin",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Outer Coffin",
+    "name_ar": "التابوت الخارجي",
+    "summary_en": "The largest of the three coffins found inside Tutankhamun's sarcophagus.",
+    "summary_ar": "أكبر التوابيت الثلاثة التي عُثر عليها داخل التابوت الحجري لتوت عنخ آمون.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "gold",
+      "funerary"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-outer-coffin",
+      "gem-ar-art-outer-coffin"
+    ]
+  },
+  {
+    "entity_key": "golden-throne",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Golden Throne",
+    "name_ar": "كرسي العرش الذهبي",
+    "summary_en": "Wooden armchair covered in gold and inlaid, showing the king and queen under the sun's rays.",
+    "summary_ar": "كرسي من الخشب مغطى بالذهب ومطعم، يصور الملك والملكة تحت أشعة قرص آتون.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "gold",
+      "treasures"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-golden-throne",
+      "gem-ar-tutankhamun-galleries"
+    ]
+  },
+  {
+    "entity_key": "canopic-chest",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Canopic Chest",
+    "name_ar": "صندوق الأواني الكانوبية",
+    "summary_en": "Shrine-shaped chest with four hollows that held miniature gold coffins for the king's organs.",
+    "summary_ar": "صندوق على هيئة مقصورة، به أربع فجوات احتوت على توابيت صغيرة من الذهب لحفظ أحشاء الملك.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "funerary",
+      "gold"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-canopic-chest",
+      "gem-ar-art-canopic-chest"
+    ]
+  },
+  {
+    "entity_key": "guardian-statues",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Guardian Statues of Tutankhamun",
+    "name_ar": "تمثال الـكا",
+    "summary_en": "A pair of life-sized statues that flanked the sealed doorway to the burial chamber.",
+    "summary_ar": "تمثالان للملك وُجدا أمام مدخل غرفة الدفن، يرجح أنهما يمثلان الملك والـ«كا» الخاصة به.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "statues",
+      "kings"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-guardian-khat",
+      "gem-art-guardian-nemes",
+      "gem-ar-art-guardian-khat",
+      "gem-ar-art-guardian-nemes"
+    ]
+  },
+  {
+    "entity_key": "anubis-on-a-chest",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Anubis on a Chest",
+    "name_ar": "أنوبيس رابض فوق صندوق طقسي",
+    "summary_en": "Carrying chest topped with a black-and-gold jackal figure of Anubis, found in the Treasury.",
+    "summary_ar": "صندوق محمول يعلوه تمثال أنوبيس باللونين الأسود والذهبي، وُجد في حجرة الخزانة.",
+    "period": "New Kingdom, Dynasty 18",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "gods",
+      "funerary"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-anubis-chest",
+      "gem-ar-art-anubis-chest"
+    ]
+  },
+  {
+    "entity_key": "model-funerary-bed",
+    "kind": "artifact",
+    "parent_key": "tutankhamun-galleries",
+    "name_en": "Model of Tutankhamun on a Funerary Bed",
+    "name_ar": "تمثال للملك راقداً على النعش",
+    "summary_en": "Wooden model of the king as a mummy on a lion-headed bed, a gift from the official Maya.",
+    "summary_ar": "نموذج خشبي للملك على هيئة مومياء فوق سرير جنائزي برأس أسد، أهداه إليه مايا.",
+    "period": "New Kingdom",
+    "ruler": "Tutankhamun",
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "tutankhamun",
+      "funerary"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-funerary-bed",
+      "gem-ar-art-funerary-bed"
+    ]
+  },
+  {
+    "entity_key": "mirror-of-mesehti",
+    "kind": "artifact",
+    "parent_key": "main-galleries",
+    "name_en": "Mirror of Mesehti",
+    "name_ar": "مرآة برونزية لمسحتي",
+    "summary_en": "Bronze mirror with a wooden handle carved with wedjat eyes, from the burial goods of Mesehti, governor of Asyut.",
+    "summary_ar": "مرآة من البرونز بمقبض خشبي من مقتنيات مسحتي، حاكم إقليم أسيوط في الأسرة الحادية عشرة.",
+    "period": "Middle Kingdom, Dynasty 11",
+    "ruler": null,
+    "suggested_minutes": null,
+    "minutes_basis": null,
+    "visit_order": null,
+    "interest_tags": [
+      "daily-life",
+      "history"
+    ],
+    "verification_status": "verified",
+    "source_keys": [
+      "gem-art-mirror-mesehti",
+      "gem-ar-art-mirror-mesehti"
+    ]
+  }
+]
